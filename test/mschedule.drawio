@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-08T12:37:46.055Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="JhXp8WfWOYJnqRRRtCDf" version="20.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-08T12:52:40.943Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="c9Gq_XrlbjIhcc-QGtD-" version="20.2.8" type="github">
   <diagram id="xO6Fa2LBVzPOrPnnOLwc" name="第 1 页">
     <mxGraphModel dx="2351" dy="1168" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -111,6 +111,33 @@
         </mxCell>
         <mxCell id="h5QGQYP_At1dJ8CjTcFP-39" value="标签查询" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="2740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h5QGQYP_At1dJ8CjTcFP-40" value="IM Group创建" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="2850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h5QGQYP_At1dJ8CjTcFP-41" value="文档处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="2960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h5QGQYP_At1dJ8CjTcFP-42" value="等候室设置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="3070" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h5QGQYP_At1dJ8CjTcFP-43" value="周期性会议创建" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="3180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h5QGQYP_At1dJ8CjTcFP-44" value="大房间检查" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="3280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h5QGQYP_At1dJ8CjTcFP-45" value="自动录制信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="3380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h5QGQYP_At1dJ8CjTcFP-46" value="响铃推送设置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="3480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h5QGQYP_At1dJ8CjTcFP-47" value="远程控制" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="3590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h5QGQYP_At1dJ8CjTcFP-48" value="云录制、设置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="3700" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
