@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-08T12:35:28.385Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="OqrX7PFRB65tKcmBU4ks" version="20.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-08T12:37:46.055Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="JhXp8WfWOYJnqRRRtCDf" version="20.2.8" type="github">
   <diagram id="xO6Fa2LBVzPOrPnnOLwc" name="第 1 页">
     <mxGraphModel dx="2351" dy="1168" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -108,6 +108,9 @@
         </mxCell>
         <mxCell id="h5QGQYP_At1dJ8CjTcFP-38" value="保存匿名信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="2640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h5QGQYP_At1dJ8CjTcFP-39" value="标签查询" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="2740" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
