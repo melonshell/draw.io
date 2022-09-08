@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-08T13:04:15.768Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="jNYMM3Vp_G_KS4PgyZFJ" version="20.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-08T13:04:41.138Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="Wf1v3nacS2qo7coxkOyZ" version="20.2.8" type="github">
   <diagram id="xO6Fa2LBVzPOrPnnOLwc" name="第 1 页">
     <mxGraphModel dx="2351" dy="1168" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -156,6 +156,9 @@
         </mxCell>
         <mxCell id="h5QGQYP_At1dJ8CjTcFP-54" value="预定会议记录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="4380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h5QGQYP_At1dJ8CjTcFP-55" value="创建邀请列表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="4480" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
