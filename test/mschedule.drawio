@@ -1,1 +1,115 @@
-<mxfile host="app.diagrams.net" modified="2022-09-08T08:19:15.016Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="20.2.8" etag="Ea13CXaGwjvyl2WIxw6Q" type="github"><diagram id="xO6Fa2LBVzPOrPnnOLwc">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-08T12:35:28.385Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="OqrX7PFRB65tKcmBU4ks" version="20.2.8" type="github">
+  <diagram id="xO6Fa2LBVzPOrPnnOLwc" name="第 1 页">
+    <mxGraphModel dx="2351" dy="1168" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="h5QGQYP_At1dJ8CjTcFP-2" value="预定会议" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="80" y="10" width="59" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h5QGQYP_At1dJ8CjTcFP-3" value="登录检查" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="50" width="160.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h5QGQYP_At1dJ8CjTcFP-5" value="登录、visitor身份检查" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="50" width="160.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h5QGQYP_At1dJ8CjTcFP-6" value="内部会议校验" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="80" width="160.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h5QGQYP_At1dJ8CjTcFP-7" value="操作限频" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="110" width="160.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h5QGQYP_At1dJ8CjTcFP-8" value="参数校验、时长校验" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="140" width="160.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h5QGQYP_At1dJ8CjTcFP-9" value="直播版本校验" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="170" width="160.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h5QGQYP_At1dJ8CjTcFP-10" value="敏感词逻辑" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="200" width="160.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h5QGQYP_At1dJ8CjTcFP-11" value="文档老版本兼容逻辑" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="230" width="160.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h5QGQYP_At1dJ8CjTcFP-12" value="webinar会议校验" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="260" width="160.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h5QGQYP_At1dJ8CjTcFP-13" value="校验" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="155" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h5QGQYP_At1dJ8CjTcFP-14" value="安全风控" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h5QGQYP_At1dJ8CjTcFP-16" value="UserAuth" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h5QGQYP_At1dJ8CjTcFP-17" value="外部企业会议" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="585" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h5QGQYP_At1dJ8CjTcFP-18" value="用户权限" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="585" width="160.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h5QGQYP_At1dJ8CjTcFP-19" value="应用停用状态" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="615" width="160.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h5QGQYP_At1dJ8CjTcFP-20" value="rooms会议前置逻辑" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h5QGQYP_At1dJ8CjTcFP-21" value="周期会议" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h5QGQYP_At1dJ8CjTcFP-22" value="PMI会议" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h5QGQYP_At1dJ8CjTcFP-23" value="meetingID&lt;br&gt;meetingCode逻辑" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h5QGQYP_At1dJ8CjTcFP-24" value="tinyID查询" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h5QGQYP_At1dJ8CjTcFP-25" value="昵称查询" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h5QGQYP_At1dJ8CjTcFP-26" value="密码更新" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h5QGQYP_At1dJ8CjTcFP-27" value="内部会议设置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h5QGQYP_At1dJ8CjTcFP-28" value="VIP set" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h5QGQYP_At1dJ8CjTcFP-29" value="查询PSTN电话" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h5QGQYP_At1dJ8CjTcFP-30" value="快速会议时间调整" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h5QGQYP_At1dJ8CjTcFP-31" value="会议设置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h5QGQYP_At1dJ8CjTcFP-32" value="入会人数填充" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="2010" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h5QGQYP_At1dJ8CjTcFP-33" value="日程检查" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="2120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h5QGQYP_At1dJ8CjTcFP-34" value="IT会议逻辑" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="2230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h5QGQYP_At1dJ8CjTcFP-35" value="rooms会议后置逻辑" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="2338" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h5QGQYP_At1dJ8CjTcFP-36" value="IM设置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="2440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h5QGQYP_At1dJ8CjTcFP-37" value="报名会议" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="2540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h5QGQYP_At1dJ8CjTcFP-38" value="保存匿名信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="2640" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
