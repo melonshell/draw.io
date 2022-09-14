@@ -1,1 +1,49 @@
-<mxfile host="app.diagrams.net" modified="2022-09-14T06:20:49.960Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="20.2.8" etag="vs3M53GQUcb3vpN6eRPU" type="github"><diagram id="oRqZUGnJGrri3WEvoiV9">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-14T08:30:48.124Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="2VaIHTTwWm9kDoWB5c4f" version="20.2.8" type="github">
+  <diagram id="oRqZUGnJGrri3WEvoiV9" name="第 1 页">
+    <mxGraphModel dx="1455" dy="874" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QDJcOiVvs-V_JbFLKSHJ-1" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 18px; line-height: 24px;&quot;&gt;HandlerMeetingJoin&lt;/div&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 18px; line-height: 24px;&quot;&gt;IsSuccHandleService&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="24" y="30" width="286" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QDJcOiVvs-V_JbFLKSHJ-2" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 18px; line-height: 24px;&quot;&gt;&lt;div style=&quot;line-height: 24px;&quot;&gt;JoinMeetingInfoComm&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="24" y="210" width="286" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QDJcOiVvs-V_JbFLKSHJ-3" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 18px; line-height: 24px;&quot;&gt;&lt;div style=&quot;line-height: 24px;&quot;&gt;webinar会议&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="70" width="286" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QDJcOiVvs-V_JbFLKSHJ-4" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 18px; line-height: 24px;&quot;&gt;&lt;div style=&quot;line-height: 24px;&quot;&gt;meeting_code查会议信息&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="110" width="286" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QDJcOiVvs-V_JbFLKSHJ-5" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 18px; line-height: 24px;&quot;&gt;&lt;div style=&quot;line-height: 24px;&quot;&gt;meeting_id查会议信息&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="150" width="286" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QDJcOiVvs-V_JbFLKSHJ-6" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 18px; line-height: 24px;&quot;&gt;&lt;div style=&quot;line-height: 24px;&quot;&gt;&lt;div style=&quot;line-height: 24px;&quot;&gt;DoIsAlreadyInMeeting&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="190" width="286" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QDJcOiVvs-V_JbFLKSHJ-7" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 18px; line-height: 24px;&quot;&gt;&lt;div style=&quot;line-height: 24px;&quot;&gt;&lt;div style=&quot;line-height: 24px;&quot;&gt;&lt;div style=&quot;line-height: 24px;&quot;&gt;webinar LinuxPC逻辑&lt;/div&gt;&lt;div style=&quot;line-height: 24px;&quot;&gt;IsAllowWebinarLinuxPcJoin&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="230" width="286" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QDJcOiVvs-V_JbFLKSHJ-8" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 18px; line-height: 24px;&quot;&gt;&lt;div style=&quot;line-height: 24px;&quot;&gt;&lt;div style=&quot;line-height: 24px;&quot;&gt;子会议处理&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="280" width="286" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QDJcOiVvs-V_JbFLKSHJ-9" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 18px; line-height: 24px;&quot;&gt;&lt;div style=&quot;line-height: 24px;&quot;&gt;&lt;div style=&quot;line-height: 24px;&quot;&gt;IsRobotUser&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="24" y="420" width="286" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QDJcOiVvs-V_JbFLKSHJ-10" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 18px; line-height: 24px;&quot;&gt;&lt;div style=&quot;line-height: 24px;&quot;&gt;&lt;div style=&quot;line-height: 24px;&quot;&gt;LogSvr上报&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="420" width="286" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QDJcOiVvs-V_JbFLKSHJ-11" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 18px; line-height: 24px;&quot;&gt;&lt;div style=&quot;line-height: 24px;&quot;&gt;&lt;div style=&quot;line-height: 24px;&quot;&gt;子会议逻辑&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="24" y="570" width="286" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QDJcOiVvs-V_JbFLKSHJ-12" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 18px; line-height: 24px;&quot;&gt;&lt;div style=&quot;line-height: 24px;&quot;&gt;&lt;div style=&quot;line-height: 24px;&quot;&gt;&lt;div style=&quot;line-height: 24px;&quot;&gt;IsSuccHandleServiceOptimal&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="24" y="760" width="286" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QDJcOiVvs-V_JbFLKSHJ-13" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 18px; line-height: 24px;&quot;&gt;&lt;div style=&quot;line-height: 24px;&quot;&gt;&lt;div style=&quot;line-height: 24px;&quot;&gt;过载：&lt;span style=&quot;&quot;&gt;ProcessMeetingOverload&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="720" width="286" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
