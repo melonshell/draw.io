@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-16T10:22:32.332Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="WaG4kZCQEe-tAScXTgjt" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-16T11:41:21.332Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="OWWHtKH1aj1dcZ75XHOb" version="20.3.0" type="github">
   <diagram id="qRWvu4nvVuNi6mA624uY" name="第 1 页">
-    <mxGraphModel dx="2346" dy="1266" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1913" dy="995" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -100,7 +100,7 @@
         <mxCell id="C2abM-FPhn4GKYd2Bork-23" value="XMPP" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="440" y="630" width="86" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="C2abM-FPhn4GKYd2Bork-24" value="power_mgr" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="C2abM-FPhn4GKYd2Bork-24" value="center" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="590" y="630" width="86" height="40" as="geometry" />
         </mxCell>
         <mxCell id="C2abM-FPhn4GKYd2Bork-25" value="安全" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
@@ -284,6 +284,9 @@
         </mxCell>
         <mxCell id="C2abM-FPhn4GKYd2Bork-72" value="&lt;b&gt;MEETING_LOGIC_CMD_C2S_QUERY_MEDIA_CONTROL_PERMISSION_REQ&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=none;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="420" y="575" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C2abM-FPhn4GKYd2Bork-73" value="power_mgr" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="710" width="86" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
