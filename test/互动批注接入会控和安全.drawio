@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-16T07:45:36.447Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="bSMHsRVheMW9wwU88-3Q" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-16T07:47:09.502Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="DPNjlCT4H1WMW-jwx5MV" version="20.3.0" type="github">
   <diagram id="qRWvu4nvVuNi6mA624uY" name="第 1 页">
     <mxGraphModel dx="2048" dy="1163" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -181,7 +181,7 @@
         <mxCell id="C2abM-FPhn4GKYd2Bork-39" value="平均耗时30ms" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=none;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="1080" y="515" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="C2abM-FPhn4GKYd2Bork-40" value="弹窗：无权限" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="C2abM-FPhn4GKYd2Bork-40" value="弹窗提示" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="290" y="670" width="86" height="40" as="geometry" />
         </mxCell>
         <mxCell id="C2abM-FPhn4GKYd2Bork-41" value="" style="curved=1;endArrow=classic;html=1;rounded=0;strokeWidth=1.5;fontSize=14;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;" edge="1" parent="1" source="C2abM-FPhn4GKYd2Bork-38" target="C2abM-FPhn4GKYd2Bork-24">
@@ -279,8 +279,8 @@
         <mxCell id="C2abM-FPhn4GKYd2Bork-69" value="增加信令" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=none;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="330" y="540" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="C2abM-FPhn4GKYd2Bork-70" value="已有信令" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=none;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="330" y="790" width="150" height="30" as="geometry" />
+        <mxCell id="C2abM-FPhn4GKYd2Bork-70" value="已有信令&lt;br&gt;MEETING_LOGIC_CMD_C2S_SETUP_MEETING_CONFIG_REQ" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="880" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
