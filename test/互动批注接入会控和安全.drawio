@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-17T14:45:09.315Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="SB6nNXjXsOFYWEoDcoWS" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-17T15:08:25.084Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="WD1rpnFemLe-Xs0ZfnZu" version="20.3.0" type="github">
   <diagram id="qRWvu4nvVuNi6mA624uY" name="第 1 页">
     <mxGraphModel dx="1498" dy="892" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -279,7 +279,7 @@
         <mxCell id="C2abM-FPhn4GKYd2Bork-69" value="增加信令type" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=none;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="337" y="600" width="153" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="C2abM-FPhn4GKYd2Bork-70" value="已有信令&lt;br&gt;MEETING_LOGIC_CMD_C2S_SETUP_MEETING_CONFIG_REQ" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="C2abM-FPhn4GKYd2Bork-70" value="已有信令" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=none;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="330" y="915" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="C2abM-FPhn4GKYd2Bork-72" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1&amp;nbsp; &amp;nbsp;MEETING_LOGIC_CMD_C2S_QUERY_MEDIA_CONTROL_PERMISSION_REQ&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 18px; line-height: 24px;&quot;&gt;2 HandlerMeetingQuery::IsSuccSearchOnlyOneMeetingInfoFillsMemberPermission&lt;/div&gt;&lt;div style=&quot;text-align: left; background-color: rgb(255, 255, 255); font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 18px; line-height: 24px;&quot;&gt;3&amp;nbsp;&lt;span style=&quot;&quot;&gt;GetUserMediaControlPermissionNew&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=none;strokeColor=default;dashed=1;" vertex="1" parent="1">
@@ -297,6 +297,9 @@
               <mxPoint x="650" y="530" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="C2abM-FPhn4GKYd2Bork-75" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1&amp;nbsp; &amp;nbsp;MEETING_LOGIC_CMD_C2S_SETUP_MEETING_CONFIG_REQ&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 18px; line-height: 24px;&quot;&gt;2&amp;nbsp;&lt;span style=&quot;&quot;&gt;HandlerMeetingControl&lt;/span&gt;::IsSuccSetMeetingMediaConfig&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=none;strokeColor=default;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="980" width="750" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
