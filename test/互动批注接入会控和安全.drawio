@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-18T06:49:43.429Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="307d0up0YdsyU08R8yGC" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-19T02:31:59.290Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="rP4LzDxR6p5RsZwx8I3I" version="20.3.0" type="github">
   <diagram id="qRWvu4nvVuNi6mA624uY" name="第 1 页">
-    <mxGraphModel dx="1493" dy="911" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1570" dy="1123" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -298,8 +298,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="C2abM-FPhn4GKYd2Bork-75" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1&amp;nbsp; &amp;nbsp;MEETING_LOGIC_CMD_C2S_SETUP_MEETING_CONFIG_REQ&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 18px; line-height: 24px;&quot;&gt;2&amp;nbsp;&lt;span style=&quot;&quot;&gt;HandlerMeetingControl&lt;/span&gt;::IsSuccSetMeetingMediaConfig&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=none;strokeColor=default;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="980" width="750" height="90" as="geometry" />
+        <mxCell id="C2abM-FPhn4GKYd2Bork-75" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1&amp;nbsp; &amp;nbsp;MEETING_LOGIC_CMD_C2S_SETUP_MEETING_CONFIG_REQ&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 18px; line-height: 24px;&quot;&gt;2&amp;nbsp;&lt;span style=&quot;&quot;&gt;MsgFactory::MakeMsgForMainCmd&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 18px; line-height: 24px;&quot;&gt;&lt;span style=&quot;&quot;&gt;3&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;IsServicesType_SetMeetingMediaConfig&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 18px; line-height: 24px;&quot;&gt;&lt;span style=&quot;&quot;&gt;4&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;HandlerMeetingSetAllPermission::IsSuccHandleService&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=none;strokeColor=default;dashed=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1010" width="750" height="90" as="geometry" />
         </mxCell>
         <mxCell id="C2abM-FPhn4GKYd2Bork-76" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Consolas, Monaco, &amp;quot;Andale Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, monospace; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(253, 253, 253); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;MeetingLogicC2SQueryMediaControlPermissionReqBody&lt;br&gt;::&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Consolas, Monaco, &amp;quot;Andale Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, monospace; font-size: 13px; background-color: rgb(253, 253, 253);&quot;&gt;MediaPermission&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=14;fontColor=#FF0000;strokeColor=default;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="1340" y="290" width="380" height="40" as="geometry" />
@@ -311,6 +311,16 @@
             <Array as="points">
               <mxPoint x="1310" y="435" />
               <mxPoint x="1300" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C2abM-FPhn4GKYd2Bork-78" value="" style="curved=1;endArrow=classic;html=1;rounded=0;dashed=1;strokeColor=#666666;strokeWidth=1.5;fontSize=14;fontColor=#FF0000;entryX=0.372;entryY=-0.029;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="C2abM-FPhn4GKYd2Bork-75">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="905" as="sourcePoint" />
+            <mxPoint x="680" y="855" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="680" y="905" />
+              <mxPoint x="680" y="990" />
             </Array>
           </mxGeometry>
         </mxCell>
