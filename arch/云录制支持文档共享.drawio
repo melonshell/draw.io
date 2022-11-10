@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-10T11:29:13.159Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="5xKlphhXcv4vx5WC6adz" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-10T11:40:11.140Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="StRPgzcCY5IYfoc-3wSO" version="20.5.1" type="github">
   <diagram id="yNctnVORr8iHeDgj5QDI" name="第 1 页">
     <mxGraphModel dx="1675" dy="1255" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -191,6 +191,9 @@
         </mxCell>
         <mxCell id="jzBIFa5iqPdJyjCQvUZY-77" value="关闭推流" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="210" y="945" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jzBIFa5iqPdJyjCQvUZY-78" value="背景：现在云录制没有录制WEB共享&lt;br&gt;备注：&lt;br&gt;1 之前没有录制web共享的原因&lt;br&gt;2 加上web共享，存在的问题&lt;br&gt;3&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="80.5" y="1310" width="679.5" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
