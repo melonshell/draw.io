@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-10T11:55:30.965Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="nHmAKvQxCOHv-_VIDoUJ" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-14T14:24:34.268Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="F-TxCjjRVfgkZGkVjcXE" version="20.5.1" type="github">
   <diagram id="yNctnVORr8iHeDgj5QDI" name="第 1 页">
-    <mxGraphModel dx="1675" dy="1255" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2346" dy="1266" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -135,7 +135,7 @@
             <mxPoint x="610.5" y="1200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jzBIFa5iqPdJyjCQvUZY-63" value="关闭拉流" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="jzBIFa5iqPdJyjCQvUZY-63" value="停止拉流" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="404" y="975" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jzBIFa5iqPdJyjCQvUZY-64" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jzBIFa5iqPdJyjCQvUZY-54" target="jzBIFa5iqPdJyjCQvUZY-56">
@@ -189,11 +189,11 @@
         <mxCell id="jzBIFa5iqPdJyjCQvUZY-76" value="5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="400.5" y="975" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="jzBIFa5iqPdJyjCQvUZY-77" value="关闭推流" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="jzBIFa5iqPdJyjCQvUZY-77" value="停止推流" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="210" y="945" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jzBIFa5iqPdJyjCQvUZY-78" value="背景：现在云录制没有录制WEB共享，需要支持录制WEB共享&lt;br&gt;备注：&lt;br&gt;1 之前没有录制web共享的原因&lt;br&gt;2 加上web共享，存在的问题&lt;br&gt;3 屏幕共享和web共享互相切换问题&lt;br&gt;3.1 正常的开启--&amp;gt;关闭--&amp;gt;开启，无问题&lt;br&gt;3.2 直接切换" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;" vertex="1" parent="1">
-          <mxGeometry x="70.75" y="1270" width="679.5" height="120" as="geometry" />
+        <mxCell id="jzBIFa5iqPdJyjCQvUZY-78" value="背景：现在云录制没有录制WEB共享，需要支持录制WEB共享&lt;br&gt;媒体房间只支持一路辅流，屏幕共享和web共享共用一个辅流；&lt;br&gt;&lt;br&gt;备注：&lt;br&gt;1 之前没有录制web共享的原因&lt;br&gt;&amp;nbsp; &amp;nbsp;共享web未推流到媒体房间的辅流&lt;br&gt;&lt;br&gt;2 加上web共享，存在的问题&lt;br&gt;&amp;nbsp; &amp;nbsp;正常的打开关闭无问题；&lt;br&gt;&amp;nbsp; &amp;nbsp;屏幕共享和web共享切换的时候有问题&amp;nbsp; &amp;nbsp;&lt;br&gt;&lt;br&gt;3 屏幕共享和web共享互相切换问题&lt;br&gt;3.1 正常的开启--&amp;gt;关闭--&amp;gt;开启，无问题&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; 有停流&lt;br&gt;3.2 直接切换（新的共享 --&amp;gt; 切换）&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;没有停流，如果先停流再开流，则会有黑屏，这段时间录制缺失；&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="10" y="1230" width="679.5" height="440" as="geometry" />
         </mxCell>
         <mxCell id="jzBIFa5iqPdJyjCQvUZY-79" value="存储" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="580" y="300" width="120" height="60" as="geometry" />
@@ -209,6 +209,19 @@
         </mxCell>
         <mxCell id="jzBIFa5iqPdJyjCQvUZY-82" value="录制文件上传" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="530.5" y="530" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jzBIFa5iqPdJyjCQvUZY-89" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="jzBIFa5iqPdJyjCQvUZY-53" target="jzBIFa5iqPdJyjCQvUZY-55">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="1060" as="sourcePoint" />
+            <mxPoint x="640" y="1010" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="500" y="980" />
+              <mxPoint x="520" y="1010" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jzBIFa5iqPdJyjCQvUZY-90" value="监控辅流" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="975" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
