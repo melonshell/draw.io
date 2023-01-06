@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-06T09:15:36.078Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="20.8.1" etag="bD56NA8aC5_X7mK3SdD0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-06T09:20:37.599Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="20.8.1" etag="zt9MGEdh6tkvBsoe_ciD" type="github">
   <diagram id="jsjYU_Txn0sp7lz1TC-h" name="第 1 页">
     <mxGraphModel dx="2260" dy="848" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -577,7 +577,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="PvWVyQyE4sZmbcHrZHed-157" value="如果更新比较久的会议，此会议根据哈希路由实例2&lt;br&gt;无问题：meeting-info和member全量覆盖更新" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="PvWVyQyE4sZmbcHrZHed-157" value="如果更新比较久的会议，此会议根据哈希路由实例2&lt;br&gt;无问题：meeting-info和member全量覆盖更新&lt;br&gt;memeber-list应该不会持续一个周" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="720" y="1470" width="240" height="90" as="geometry" />
         </mxCell>
         <mxCell id="PvWVyQyE4sZmbcHrZHed-158" value="SDK实现还是proxy实现？" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
