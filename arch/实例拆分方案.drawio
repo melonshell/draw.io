@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-06T04:55:39.279Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="20.8.1" etag="3xnfSmTIro0PjdVXMXFL" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-06T05:19:34.456Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="20.8.1" etag="n4jXy5AIIy0j5aNZo3Dd" type="github">
   <diagram id="jsjYU_Txn0sp7lz1TC-h" name="第 1 页">
-    <mxGraphModel dx="1965" dy="1057" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2792" dy="1057" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -311,6 +311,39 @@
         </mxCell>
         <mxCell id="PvWVyQyE4sZmbcHrZHed-86" value="哈希读" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="830" y="980" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PvWVyQyE4sZmbcHrZHed-87" value="双写：解决并发和同步覆盖问题&lt;br&gt;可回退" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1070" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PvWVyQyE4sZmbcHrZHed-88" value="同key覆盖&lt;br&gt;不同key，则dts同步，&lt;b&gt;观察&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1070" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PvWVyQyE4sZmbcHrZHed-89" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="PvWVyQyE4sZmbcHrZHed-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780" y="810" as="sourcePoint" />
+            <mxPoint x="30" y="1090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PvWVyQyE4sZmbcHrZHed-90" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="PvWVyQyE4sZmbcHrZHed-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="85" y="1050" as="sourcePoint" />
+            <mxPoint x="90" y="1090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PvWVyQyE4sZmbcHrZHed-91" value="11" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="1090" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PvWVyQyE4sZmbcHrZHed-92" value="12" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="75" y="1090" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PvWVyQyE4sZmbcHrZHed-93" value="%4=0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-5" y="1130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PvWVyQyE4sZmbcHrZHed-94" value="%4=2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PvWVyQyE4sZmbcHrZHed-95" value="%2=0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-5" y="1010" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
