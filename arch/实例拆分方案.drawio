@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-06T08:59:46.759Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="20.8.1" etag="TfmXZ2OpVAhXP6H2UTdI" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-06T09:06:25.740Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="20.8.1" etag="gnwM9lP5T6olCibd-hH9" type="github">
   <diagram id="jsjYU_Txn0sp7lz1TC-h" name="第 1 页">
-    <mxGraphModel dx="2280" dy="1048" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2260" dy="848" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -577,7 +577,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="PvWVyQyE4sZmbcHrZHed-157" value="如果更新比较久的会议，此会议根据哈希路由实例2&lt;br&gt;无问题：meeting-info和member全量覆盖更新&lt;br&gt;&lt;b&gt;哈希member-list存在问题&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="PvWVyQyE4sZmbcHrZHed-157" value="如果更新比较久的会议，此会议根据哈希路由实例2&lt;br&gt;无问题：meeting-info和member全量覆盖更新" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="720" y="1470" width="240" height="90" as="geometry" />
         </mxCell>
         <mxCell id="PvWVyQyE4sZmbcHrZHed-158" value="SDK实现还是proxy实现？" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
@@ -591,6 +591,9 @@
         </mxCell>
         <mxCell id="PvWVyQyE4sZmbcHrZHed-161" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;member-info：hash，member-list：hash&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1 根据meeting-info的方式，hash需要考虑&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2 meeting-info中存储member-info和member-list的索引&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="20" y="2200" width="332.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PvWVyQyE4sZmbcHrZHed-162" value="&lt;b&gt;member-list有问题&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1530" width="187.5" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
