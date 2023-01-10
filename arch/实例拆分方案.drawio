@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-10T12:33:53.500Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="GiOkscGmNxTVuC9v5MQR" version="20.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-10T13:04:46.203Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="19QM9WotTHY3Vk4jKJKV" version="20.8.1" type="github">
   <diagram id="jsjYU_Txn0sp7lz1TC-h" name="第 1 页">
     <mxGraphModel dx="2373" dy="-427" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -43,7 +43,7 @@
         <mxCell id="DXR3qiWjVmH9UOqzKoYP-37" value="S3" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-670" y="1590" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DXR3qiWjVmH9UOqzKoYP-38" value="对账&lt;br&gt;（热数据可能需要延迟几秒）" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="DXR3qiWjVmH9UOqzKoYP-38" value="离线对账+实时对账&lt;br&gt;（热数据可能需要延迟几秒）" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-440" y="1590" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DXR3qiWjVmH9UOqzKoYP-39" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" parent="1" edge="1">
