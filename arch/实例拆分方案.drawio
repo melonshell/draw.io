@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-10T08:45:56.175Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="pQL55vLMxGDcyg5p2r0a" version="20.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-10T08:50:44.197Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="WwMiyoPIm3KI39DPFr-b" version="20.8.3" type="github">
   <diagram id="jsjYU_Txn0sp7lz1TC-h" name="第 1 页">
     <mxGraphModel dx="2039" dy="29" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -62,6 +62,12 @@
         </mxCell>
         <mxCell id="DXR3qiWjVmH9UOqzKoYP-42" value="S4 灰度" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-670" y="1790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DXR3qiWjVmH9UOqzKoYP-43" value="读灰度" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-440" y="1790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DXR3qiWjVmH9UOqzKoYP-44" value="写灰度" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-440" y="1920" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
