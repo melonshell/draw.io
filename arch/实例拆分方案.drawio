@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-11T01:29:23.466Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="d3Ed-EeEYmtZfgo2rhnd" version="20.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-11T01:48:35.175Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="vOS9YFnh3bGiH0B9BNTj" version="20.8.3" type="github">
   <diagram id="jsjYU_Txn0sp7lz1TC-h" name="第 1 页">
     <mxGraphModel dx="2369" dy="-252" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -400,7 +400,7 @@
         <mxCell id="DXR3qiWjVmH9UOqzKoYP-165" value="缺点：&lt;br&gt;1 新增依赖，成本和代码复杂度增加&lt;br&gt;2 路由表本身的维护，如过期时间&lt;br&gt;3 根据tinyid查询场景（超时退会、历史会议查询） 需要查询所有分片（可查备实例）&lt;br&gt;4 meetingid去重场景可能要查询两个分片&lt;br&gt;5 难以对账&lt;br&gt;6 memberinfo存储需要改造，由于根据meetingid路由，可能分散于所有实例" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="520" y="1250" width="260" height="255" as="geometry" />
         </mxCell>
-        <mxCell id="DXR3qiWjVmH9UOqzKoYP-166" value="操作步骤：&lt;br&gt;1 先双写1周&lt;br&gt;2 灰度兜底读的逻辑：先按哈希路由的方式查询新实例，如果新实例不存在，则查询旧实例，然后再写入到新实例&lt;br&gt;3 对新实例中的key和原实例对账；&lt;br&gt;4 停双写&lt;br&gt;5 去掉兜底读的逻辑" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;align=left;" vertex="1" parent="1">
+        <mxCell id="DXR3qiWjVmH9UOqzKoYP-166" value="操作步骤：&lt;br&gt;1 先双写1周&lt;br&gt;2 灰度兜底读的逻辑：先按哈希路由的方式查询新实例，如果新实例不存在，则查询旧实例，然后再写入到新实例&lt;br&gt;3 对新实例中的key和原实例对账；&lt;br&gt;4 停双写&lt;br&gt;5 去掉兜底读的逻辑&lt;br&gt;6 memberlist扩容在meetinginfo中增加路由" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;align=left;" vertex="1" parent="1">
           <mxGeometry y="1590" width="260" height="255" as="geometry" />
         </mxCell>
         <mxCell id="DXR3qiWjVmH9UOqzKoYP-167" value="优点：&lt;br&gt;1 无新增依赖；&lt;br&gt;2 对memberinfo可根据tinyid哈希，查询不会全量实例遍历；&lt;br&gt;3 meetingid去重场景可根据meetingid哈希" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;align=left;" vertex="1" parent="1">
@@ -409,14 +409,23 @@
         <mxCell id="DXR3qiWjVmH9UOqzKoYP-168" value="缺点：&lt;br&gt;1 member批量查询需要业务按实例改造；&lt;br&gt;2 读逻辑需要改造，工作量较大&lt;br&gt;3 扩容周期较长，在扩容过程中如果再扩容，比较复杂；&lt;br&gt;4 兜底读逻辑去掉需要开发工具" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="520" y="1590" width="260" height="255" as="geometry" />
         </mxCell>
-        <mxCell id="DXR3qiWjVmH9UOqzKoYP-169" value="操作步骤：&lt;br&gt;1 先双写1周&lt;br&gt;2 灰度兜底读的逻辑：先按哈希路由的方式查询新实例，如果新实例不存在，则查询旧实例，然后再写入到新实例&lt;br&gt;3 对新实例中的key和原实例对账；&lt;br&gt;4 停双写&lt;br&gt;5 去掉兜底读的逻辑" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;align=left;" vertex="1" parent="1">
+        <mxCell id="DXR3qiWjVmH9UOqzKoYP-169" value="操作步骤：&lt;br&gt;1 先双写1周&lt;br&gt;2 工具迁移存量数据（需根据SEQ）&lt;br&gt;3 对账，保证新旧redis实例数据一致；&lt;br&gt;4 灰度读到新实例&lt;br&gt;5 去双写&lt;br&gt;6 memberlist扩容在meetinginfo中增加路由" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;align=left;" vertex="1" parent="1">
           <mxGeometry y="1900" width="260" height="255" as="geometry" />
         </mxCell>
-        <mxCell id="DXR3qiWjVmH9UOqzKoYP-170" value="优点：&lt;br&gt;1 无新增依赖；&lt;br&gt;2 对memberinfo可根据tinyid哈希，查询不会全量实例遍历；&lt;br&gt;3 meetingid去重场景可根据meetingid哈希" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;align=left;" vertex="1" parent="1">
+        <mxCell id="DXR3qiWjVmH9UOqzKoYP-170" value="优点：&lt;br&gt;1 无新增依赖，无兜底逻辑；&lt;br&gt;2 对memberinfo可根据tinyid哈希，查询不会全量实例遍历；&lt;br&gt;3 meetingid去重场景可根据meetingid哈希&lt;br&gt;4 可成倍平滑扩容&lt;br&gt;5 代码改造相对兜底读简单" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="260" y="1900" width="260" height="255" as="geometry" />
         </mxCell>
-        <mxCell id="DXR3qiWjVmH9UOqzKoYP-171" value="缺点：&lt;br&gt;1 member批量查询需要业务按实例改造；&lt;br&gt;2 读逻辑需要改造，工作量较大&lt;br&gt;3 扩容周期较长，在扩容过程中如果再扩容，比较复杂；&lt;br&gt;4 兜底读逻辑去掉需要开发工具" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;align=left;" vertex="1" parent="1">
+        <mxCell id="DXR3qiWjVmH9UOqzKoYP-171" value="缺点：&lt;br&gt;1 member批量查询需要业务按实例改造；&lt;br&gt;2 迁移工具开发" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="520" y="1900" width="260" height="255" as="geometry" />
+        </mxCell>
+        <mxCell id="DXR3qiWjVmH9UOqzKoYP-172" value="操作步骤：&lt;br&gt;1 DTS反向同步&lt;br&gt;2 灰度读和写" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;align=left;" vertex="1" parent="1">
+          <mxGeometry y="2200" width="260" height="255" as="geometry" />
+        </mxCell>
+        <mxCell id="DXR3qiWjVmH9UOqzKoYP-173" value="优点：&lt;br&gt;1 无新增依赖，无兜底逻辑；&lt;br&gt;2 对memberinfo可根据tinyid哈希，查询不会全量实例遍历；&lt;br&gt;3 meetingid去重场景可根据meetingid哈希&lt;br&gt;4 代码改造相对兜底读简单，无双写" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="260" y="2200" width="260" height="255" as="geometry" />
+        </mxCell>
+        <mxCell id="DXR3qiWjVmH9UOqzKoYP-174" value="缺点：&lt;br&gt;1 切换过程中，可能出现数据不一致的情况，原因是读和写很难做到绝对一致，可能读到旧数据（比如部分机器执行灰度写到新实例，此时最新的更新逻辑请求到灰度未生效的机器，则会导致读取数据不一致）&lt;br&gt;2 新实例异常，DTS同步可能受到影响，无法无损回滚；" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="520" y="2200" width="260" height="255" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
