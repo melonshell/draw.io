@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-11T00:44:42.165Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="F79f7E7tpv-jateLi0ZO" version="20.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-11T00:59:16.620Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="dhp6yHBKMeaHMV6UlU9o" version="20.8.3" type="github">
   <diagram id="jsjYU_Txn0sp7lz1TC-h" name="第 1 页">
-    <mxGraphModel dx="2392" dy="-228" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2369" dy="-252" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -390,6 +390,15 @@
             <mxPoint x="-469" y="2383" as="sourcePoint" />
             <mxPoint x="-238.00000000000318" y="2093" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="DXR3qiWjVmH9UOqzKoYP-163" value="操作步骤：&lt;br&gt;1 申请足够容量的redis实例，作为路由表；&lt;br&gt;2 预定会议时更新路由表，路由表格式：&lt;br&gt;&amp;nbsp; &amp;nbsp;meetingid meetinginfo索引，memberinfo索引，memberlist索引；&lt;br&gt;3 查询成员信息和成员列表时先根据meetingid查询路由表，获取目标实例；&lt;br&gt;4 执行查询" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;align=left;" vertex="1" parent="1">
+          <mxGeometry y="1250" width="260" height="255" as="geometry" />
+        </mxCell>
+        <mxCell id="DXR3qiWjVmH9UOqzKoYP-164" value="优点：&lt;br&gt;1 存量数据无需迁移；&lt;br&gt;2 扩容简单，新增实例直接取模即可&lt;br&gt;3 同会议的批量操作简单&lt;br&gt;4 代码改造相对容易&amp;nbsp; &amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1250" width="260" height="255" as="geometry" />
+        </mxCell>
+        <mxCell id="DXR3qiWjVmH9UOqzKoYP-165" value="缺点：&lt;br&gt;1 存量数据无需迁移；&lt;br&gt;2 扩容简单，新增实例直接取模即可&lt;br&gt;3 同会议的批量操作简单&lt;br&gt;4 代码改造相对容易&amp;nbsp; &amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1250" width="260" height="255" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
