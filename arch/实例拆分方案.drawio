@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-11T02:52:39.413Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="BA0Q7HYYvCoaTiW4HDnV" version="20.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-11T03:05:55.550Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="chPwj-gOEWX67Pqs2-mW" version="20.8.3" type="github">
   <diagram id="jsjYU_Txn0sp7lz1TC-h" name="第 1 页">
-    <mxGraphModel dx="3309" dy="166" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3185" dy="99" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -426,6 +426,18 @@
         </mxCell>
         <mxCell id="DXR3qiWjVmH9UOqzKoYP-174" value="缺点：&lt;br&gt;1 切换过程中，可能出现数据不一致的情况，原因是读和写很难做到绝对一致，可能读到旧数据（比如部分机器执行灰度写到新实例，此时最新的更新逻辑请求到灰度未生效的机器，则会导致读取数据不一致）&lt;br&gt;2 新实例异常，DTS同步可能受到影响，无法无损回滚；" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="520" y="2200" width="260" height="255" as="geometry" />
+        </mxCell>
+        <mxCell id="DXR3qiWjVmH9UOqzKoYP-175" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;一 路由表&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-810" y="1210" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DXR3qiWjVmH9UOqzKoYP-176" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;二 哈希 兜底读&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-805" y="1580" width="235" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DXR3qiWjVmH9UOqzKoYP-178" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;三 哈希 工具迁移&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-805" y="1900" width="235" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DXR3qiWjVmH9UOqzKoYP-179" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;四 哈希 反向同步&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-812.5" y="2190" width="235" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
