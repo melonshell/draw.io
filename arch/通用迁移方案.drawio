@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-09T08:53:30.301Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="VehkgB1jsnXqlSbuwQcx" version="20.8.18" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-09T09:10:48.865Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="CNRC6dsGDm1iAjIPhA6H" version="20.8.18" type="github">
   <diagram name="第 1 页" id="E2ktxQ8g1rob8ewKkrWX">
-    <mxGraphModel dx="1532" dy="1016" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2074" dy="1124" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -103,7 +103,7 @@
             <mxPoint x="216" y="1070" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5y1Nww-tZy5FuYgsdg_S-28" value="SDK" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;dashed=1;dashPattern=8 8;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="5y1Nww-tZy5FuYgsdg_S-28" value="代码SDK" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;dashed=1;dashPattern=8 8;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="386" y="960" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="5y1Nww-tZy5FuYgsdg_S-29" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1">
@@ -220,11 +220,11 @@
             <mxPoint x="251" y="670" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5y1Nww-tZy5FuYgsdg_S-61" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;方案1问题：&lt;br&gt;（1）DTS不支持双向同步（回环同步问题、断点续传问题），&lt;b&gt;仅支持单向同步&lt;/b&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 全球同步复制（有binlog），数据冲突可配置冲突覆盖和冲突忽略，&lt;b&gt;仅小量业务使用，没有大流量业务实践&lt;/b&gt;&lt;br&gt;（2）切换过程中高一致读问题：可能写1读2&lt;br&gt;（3）切换过程中写冲突解决&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;align=left;" vertex="1" parent="1">
+        <mxCell id="5y1Nww-tZy5FuYgsdg_S-61" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;方案1问题：&lt;br&gt;（1）DTS不支持双向同步（回环同步问题、断点续传问题），&lt;b&gt;仅支持单向同步&lt;/b&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;全球同步复制（有binlog），数据冲突可配置冲突覆盖和冲突忽略，&lt;b&gt;仅小量业务使用，没有大流量业务实践&lt;/b&gt;&lt;br&gt;（2）切换过程中高一致读问题：可能写1读2&lt;br&gt;（3）切换过程中写冲突解决&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;align=left;" vertex="1" parent="1">
           <mxGeometry x="630" y="930" width="710" height="100" as="geometry" />
         </mxCell>
         <mxCell id="5y1Nww-tZy5FuYgsdg_S-63" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;方案2问题：&lt;br&gt;（1）暂不支持binlog订阅（依赖全球同步复制），要到Q3&lt;br&gt;（2）切换过程中高一致读问题：可能写1读2&lt;br&gt;（3）切换过程中写冲突解决&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;align=left;" vertex="1" parent="1">
-          <mxGeometry x="630" y="1040" width="370" height="80" as="geometry" />
+          <mxGeometry x="630" y="1060" width="370" height="80" as="geometry" />
         </mxCell>
         <mxCell id="5y1Nww-tZy5FuYgsdg_S-64" value="双读 --》会控写少读多，改造工作量大，实时补偿" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;align=left;" vertex="1" parent="1">
           <mxGeometry x="620" y="50" width="310" height="80" as="geometry" />
@@ -234,6 +234,9 @@
         </mxCell>
         <mxCell id="5y1Nww-tZy5FuYgsdg_S-66" value="&lt;b&gt;异构存储&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;align=left;" vertex="1" parent="1">
           <mxGeometry x="148" y="590" width="64" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5y1Nww-tZy5FuYgsdg_S-67" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;font color=&quot;#ff3333&quot;&gt;方案3：&lt;br&gt;&lt;/font&gt;1 具体通用性，SDK封装迁移逻辑&lt;br&gt;2 灰度过程中可以保证一致性&lt;br&gt;3 业务可控：发布和回退&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="630" y="1190" width="370" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
