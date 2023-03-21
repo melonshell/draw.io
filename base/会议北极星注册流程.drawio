@@ -1,1 +1,102 @@
-<mxfile host="app.diagrams.net" modified="2023-03-21T06:10:38.114Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="21.0.6" etag="VFebuhegiVHyANQqDk5p" type="github"><diagram name="第 1 页" id="6H1Ki1rr6aSV09BoeHP-">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-21T06:28:03.696Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="WESAu2DZrYSwZvm0-ecN" version="21.0.6" type="github">
+  <diagram name="第 1 页" id="6H1Ki1rr6aSV09BoeHP-">
+    <mxGraphModel dx="1306" dy="740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TcJszXdFOMSEdADV4AaX-4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.5;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="475" y="420" width="185" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="TcJszXdFOMSEdADV4AaX-2" value="主调" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.5;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="170" y="450" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TcJszXdFOMSEdADV4AaX-3" value="被调" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.5;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="583" y="450" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TcJszXdFOMSEdADV4AaX-5" value="TKEx" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.5;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="532.5" y="490" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TcJszXdFOMSEdADV4AaX-7" value="&lt;font color=&quot;#1a1a1a&quot;&gt;进程健康检查脚本&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=26;fillColor=#bac8d3;sketch=1;curveFitting=1;jiggle=2;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="486" y="440" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TcJszXdFOMSEdADV4AaX-8" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeWidth=1.5;fillColor=#008a00;strokeColor=#005700;" edge="1" parent="1" source="TcJszXdFOMSEdADV4AaX-3" target="TcJszXdFOMSEdADV4AaX-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="400" as="sourcePoint" />
+            <mxPoint x="420" y="265" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TcJszXdFOMSEdADV4AaX-9" value="关闭监控检查" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.5;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="570" y="320" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TcJszXdFOMSEdADV4AaX-10" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;endWidth=8;endSize=6.33;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="470.5" as="sourcePoint" />
+            <mxPoint x="580" y="470.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TcJszXdFOMSEdADV4AaX-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;strokeWidth=1.5;fillColor=#008a00;strokeColor=#005700;exitX=0.081;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="TcJszXdFOMSEdADV4AaX-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="430" as="sourcePoint" />
+            <mxPoint x="395" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TcJszXdFOMSEdADV4AaX-12" value="TKEx注册和反注册" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.5;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="458" y="350" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TcJszXdFOMSEdADV4AaX-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;strokeWidth=1.5;fillColor=#f8cecc;strokeColor=#b85450;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="327" y="280" as="sourcePoint" />
+            <mxPoint x="229.5" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TcJszXdFOMSEdADV4AaX-14" value="服务发现更新" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.5;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="380" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TcJszXdFOMSEdADV4AaX-15" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;strokeWidth=1.5;fillColor=#6d8764;strokeColor=#3A5431;" edge="1" parent="1" source="TcJszXdFOMSEdADV4AaX-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="390" as="sourcePoint" />
+            <mxPoint x="370" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="460" />
+              <mxPoint x="420" y="420" />
+              <mxPoint x="390" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TcJszXdFOMSEdADV4AaX-16" value="创建北极星名字" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.5;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="370" y="400" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TcJszXdFOMSEdADV4AaX-17" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="370" y="370" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TcJszXdFOMSEdADV4AaX-19" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="483" y="386" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TcJszXdFOMSEdADV4AaX-20" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="557.5" y="310" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TcJszXdFOMSEdADV4AaX-21" value="4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="400" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TcJszXdFOMSEdADV4AaX-23" value="北极星SDK" style="html=1;whiteSpace=wrap;shape=isoCube2;backgroundOutline=1;isoAngle=15;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="610" y="475" width="75" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="TcJszXdFOMSEdADV4AaX-24" value="北极星SDK" style="html=1;whiteSpace=wrap;shape=isoCube2;backgroundOutline=1;isoAngle=15;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="205" y="470" width="75" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="TcJszXdFOMSEdADV4AaX-25" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.5;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="135" y="420" width="185" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="TcJszXdFOMSEdADV4AaX-26" value="北极星控制台" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.5;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="370" y="230" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TcJszXdFOMSEdADV4AaX-27" value="北极星Server" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.5;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="270" y="230" width="100" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
