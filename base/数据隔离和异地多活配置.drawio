@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-27T13:40:16.752Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="RcwGhpi0HI9ChoLszwVY" version="21.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-27T13:44:26.227Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="MgJV2CZ-gtDhvAca5RTi" version="21.1.1" type="github">
   <diagram name="第 1 页" id="3ekTtO09td6I2QyxoWbA">
     <mxGraphModel dx="1306" dy="740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -144,13 +144,13 @@
           <mxGeometry x="710" y="643" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="S5WVxqrFyPBs2DXpXE_U-60" value="海外兜底配置" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;strokeWidth=1.5;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="936.5" y="555" width="127" height="40" as="geometry" />
+          <mxGeometry x="898.5" y="555" width="127" height="40" as="geometry" />
         </mxCell>
         <mxCell id="S5WVxqrFyPBs2DXpXE_U-61" value="配置项4" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;strokeWidth=1.5;shadow=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="870" y="609.75" width="60" height="30" as="geometry" />
+          <mxGeometry x="832" y="609.75" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="S5WVxqrFyPBs2DXpXE_U-62" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;strokeWidth=1.5;" vertex="1" parent="1">
-          <mxGeometry x="935" y="574.75" width="20" height="100" as="geometry" />
+          <mxGeometry x="897" y="574.75" width="20" height="100" as="geometry" />
         </mxCell>
         <mxCell id="S5WVxqrFyPBs2DXpXE_U-68" value="[code，redis]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;strokeWidth=1.5;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
           <mxGeometry x="1380" y="282.5" width="127" height="40" as="geometry" />
@@ -165,13 +165,13 @@
           <mxGeometry x="1372" y="381.5" width="127" height="40" as="geometry" />
         </mxCell>
         <mxCell id="S5WVxqrFyPBs2DXpXE_U-77" value="中国兜底配置" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;strokeWidth=1.5;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="939" y="654" width="127" height="40" as="geometry" />
+          <mxGeometry x="901" y="654" width="127" height="40" as="geometry" />
         </mxCell>
         <mxCell id="S5WVxqrFyPBs2DXpXE_U-78" value="广州企业" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;strokeWidth=1.5;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="1033" y="654" width="127" height="40" as="geometry" />
+          <mxGeometry x="995" y="654" width="127" height="40" as="geometry" />
         </mxCell>
         <mxCell id="S5WVxqrFyPBs2DXpXE_U-79" value="新加坡企业" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;strokeWidth=1.5;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="1033" y="555" width="127" height="40" as="geometry" />
+          <mxGeometry x="995" y="555" width="127" height="40" as="geometry" />
         </mxCell>
         <mxCell id="S5WVxqrFyPBs2DXpXE_U-80" value="异地" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;strokeWidth=1.5;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
           <mxGeometry x="112" y="574.75" width="90" height="40" as="geometry" />
