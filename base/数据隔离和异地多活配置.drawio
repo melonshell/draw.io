@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-28T14:33:22.500Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="Uc7UYlFtKMWKJhW1zJ4-" version="21.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-29T08:43:19.007Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="3uO4tOT-ga1cFOzdhxqR" version="21.1.1" type="github">
   <diagram name="第 1 页" id="3ekTtO09td6I2QyxoWbA">
-    <mxGraphModel dx="1306" dy="683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1257" dy="687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -172,12 +172,6 @@
         </mxCell>
         <mxCell id="S5WVxqrFyPBs2DXpXE_U-79" value="新加坡企业" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;strokeWidth=1.5;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
           <mxGeometry x="995" y="555" width="127" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="S5WVxqrFyPBs2DXpXE_U-80" value="异地" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;strokeWidth=1.5;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="60" y="574.75" width="90" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="S5WVxqrFyPBs2DXpXE_U-81" value="PSTN" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;strokeWidth=1.5;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="60" y="608" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="S5WVxqrFyPBs2DXpXE_U-82" value="上海或北京的workload" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=1.5;shadow=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
           <mxGeometry x="700" y="134" width="80" height="46" as="geometry" />
