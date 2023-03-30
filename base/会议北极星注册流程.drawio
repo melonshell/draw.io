@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2023-03-21T07:30:13.725Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="8eLZcG08V5T-A-uZJcgs" version="21.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-30T07:28:47.617Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="Suabc1cVXaP9Pq1tr1If" version="21.0.8" type="github">
   <diagram name="第 1 页" id="6H1Ki1rr6aSV09BoeHP-">
-    <mxGraphModel dx="1242" dy="815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1416" dy="1025" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="gqF3m5P3Bsn3sEqflMzO-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.5;strokeColor=#23445d;" vertex="1" parent="1">
+        <mxCell id="gqF3m5P3Bsn3sEqflMzO-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.5;strokeColor=#23445d;" parent="1" vertex="1">
           <mxGeometry x="266" y="205" width="220" height="85" as="geometry" />
         </mxCell>
         <mxCell id="TcJszXdFOMSEdADV4AaX-4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.5;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
@@ -31,7 +31,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="TcJszXdFOMSEdADV4AaX-9" value="关闭监控检查" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.5;strokeColor=none;" parent="1" vertex="1">
+        <mxCell id="TcJszXdFOMSEdADV4AaX-9" value="关闭健康检查" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.5;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="583" y="310" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="TcJszXdFOMSEdADV4AaX-10" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;endWidth=8;endSize=6.33;" parent="1" edge="1">
@@ -40,7 +40,7 @@
             <mxPoint x="580" y="470.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TcJszXdFOMSEdADV4AaX-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.655;entryY=1;entryDx=0;entryDy=0;strokeWidth=1.5;fillColor=#008a00;strokeColor=#005700;exitX=0.081;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="TcJszXdFOMSEdADV4AaX-4" edge="1" target="gqF3m5P3Bsn3sEqflMzO-1">
+        <mxCell id="TcJszXdFOMSEdADV4AaX-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.655;entryY=1;entryDx=0;entryDy=0;strokeWidth=1.5;fillColor=#008a00;strokeColor=#005700;exitX=0.081;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="TcJszXdFOMSEdADV4AaX-4" target="gqF3m5P3Bsn3sEqflMzO-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="480" y="430" as="sourcePoint" />
             <mxPoint x="395" y="280" as="targetPoint" />
@@ -49,7 +49,7 @@
         <mxCell id="TcJszXdFOMSEdADV4AaX-12" value="TKEx注册和反注册" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.5;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="458" y="350" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="TcJszXdFOMSEdADV4AaX-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;strokeWidth=1.5;fillColor=#f8cecc;strokeColor=#b85450;exitX=0.145;exitY=1.024;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1" source="gqF3m5P3Bsn3sEqflMzO-1">
+        <mxCell id="TcJszXdFOMSEdADV4AaX-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;strokeWidth=1.5;fillColor=#f8cecc;strokeColor=#b85450;exitX=0.145;exitY=1.024;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="gqF3m5P3Bsn3sEqflMzO-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="327" y="280" as="sourcePoint" />
             <mxPoint x="229.5" y="450" as="targetPoint" />
@@ -99,16 +99,16 @@
         <mxCell id="TcJszXdFOMSEdADV4AaX-27" value="&lt;font color=&quot;#1a1a1a&quot;&gt;北极星Server&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.5;strokeColor=#23445d;" parent="1" vertex="1">
           <mxGeometry x="275" y="222.5" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="gqF3m5P3Bsn3sEqflMzO-2" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.655;entryY=1;entryDx=0;entryDy=0;strokeWidth=1.5;fillColor=#008a00;strokeColor=#005700;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1">
+        <mxCell id="gqF3m5P3Bsn3sEqflMzO-2" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.655;entryY=1;entryDx=0;entryDy=0;strokeWidth=1.5;fillColor=#008a00;strokeColor=#005700;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryPerimeter=0;dashed=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="570.5" y="420" as="sourcePoint" />
             <mxPoint x="486" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gqF3m5P3Bsn3sEqflMzO-5" value="心跳" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.5;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="gqF3m5P3Bsn3sEqflMzO-5" value="心跳" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.5;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="450" y="290" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="gqF3m5P3Bsn3sEqflMzO-10" value="TKEx连接的北极星服务端IP可能挂掉" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.cloud_callout;fillColor=#d5e8d4;shadow=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="gqF3m5P3Bsn3sEqflMzO-10" value="TKEx连接的北极星服务端IP可能挂掉" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.cloud_callout;fillColor=#d5e8d4;shadow=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="495.5" y="187.5" width="144" height="120" as="geometry" />
         </mxCell>
       </root>
