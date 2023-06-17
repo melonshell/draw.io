@@ -1,9 +1,21 @@
-<mxfile host="app.diagrams.net" modified="2023-06-17T03:34:23.670Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.4.0" etag="kQpQCqGG600OoRYNSeAQ" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-17T04:25:14.529Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="FTfe19jMI3NENdhTFVfp" version="21.4.0" type="github">
   <diagram name="第 1 页" id="bxmQuoc_s092ykwbik4G">
-    <mxGraphModel>
+    <mxGraphModel dx="1306" dy="740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="F27UzN-mEICpg0OeY6OQ-1" value="北极星Server" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="480" y="340" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F27UzN-mEICpg0OeY6OQ-4" value="主调SDK" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="230" y="490" width="100" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="F27UzN-mEICpg0OeY6OQ-5" value="定时同步" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="230" y="340" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F27UzN-mEICpg0OeY6OQ-6" value="被调SDK" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="480" y="490" width="100" height="210" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
