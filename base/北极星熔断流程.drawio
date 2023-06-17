@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-17T04:41:14.720Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="jQjNBjy_o2Bt0k0T_m5O" version="21.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-17T04:41:34.669Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="skouHJwpBqp_jrc_Q_8d" version="21.4.0" type="github">
   <diagram name="第 1 页" id="bxmQuoc_s092ykwbik4G">
     <mxGraphModel dx="1306" dy="740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -79,8 +79,8 @@
         <mxCell id="F27UzN-mEICpg0OeY6OQ-27" value="故障熔断/半开" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.5;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="374" y="610" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="F27UzN-mEICpg0OeY6OQ-28" value="故障熔断主调本地行为，&lt;br&gt;主调间互不影响" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="342" y="690" width="136" height="80" as="geometry" />
+        <mxCell id="F27UzN-mEICpg0OeY6OQ-28" value="故障熔断是主调本地行为，&lt;br&gt;主调间互不影响" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="342" y="690" width="148" height="80" as="geometry" />
         </mxCell>
         <mxCell id="F27UzN-mEICpg0OeY6OQ-29" value="默认2s&lt;br&gt;trpc-go" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeWidth=1.5;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
           <mxGeometry x="290" y="410" width="80" height="40" as="geometry" />
