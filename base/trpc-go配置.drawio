@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-22T16:03:36.556Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="O4g6MAp2X3ghzNztfrYm" version="21.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-23T01:56:55.223Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="ve83sf_h1RKDEGjebNk8" version="21.4.0" type="github">
   <diagram name="第 1 页" id="jQH7tbNoPTEvgEEvp-iL">
     <mxGraphModel dx="1306" dy="740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -673,6 +673,30 @@
         </mxCell>
         <mxCell id="gdKYo6TlWgg4qejeybsB-31" value="&lt;div style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;api.GetOneInstanceRequest&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="1275" y="1134" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gdKYo6TlWgg4qejeybsB-32" value="元数据路由" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="1220" width="68" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gdKYo6TlWgg4qejeybsB-33" value="规则路由" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1159" y="1220" width="68" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gdKYo6TlWgg4qejeybsB-34" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;strokeWidth=1.5;fontSize=14;fontColor=#1A1A1A;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1" target="gdKYo6TlWgg4qejeybsB-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1220" y="1180" as="sourcePoint" />
+            <mxPoint x="1220" y="1260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gdKYo6TlWgg4qejeybsB-35" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;strokeWidth=1.5;fontSize=14;fontColor=#1A1A1A;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;exitX=0;exitY=0;exitDx=55;exitDy=50;exitPerimeter=0;" edge="1" parent="1" source="gdKYo6TlWgg4qejeybsB-15" target="gdKYo6TlWgg4qejeybsB-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1230" y="1190" as="sourcePoint" />
+            <mxPoint x="1203" y="1230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gdKYo6TlWgg4qejeybsB-36" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;strokeWidth=1.5;fontSize=14;fontColor=#1A1A1A;fillColor=#e1d5e7;strokeColor=#9673a6;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1257" y="1240" as="sourcePoint" />
+            <mxPoint x="1227" y="1240" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
