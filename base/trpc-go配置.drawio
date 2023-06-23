@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-23T10:10:48.037Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="khKog7-746gDj4O5Sm1H" version="21.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-23T10:32:15.174Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="e7Y01fzNLeDsCD-CzBXo" version="21.4.0" type="github">
   <diagram name="第 1 页" id="jQH7tbNoPTEvgEEvp-iL">
-    <mxGraphModel dx="1115" dy="740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1337" dy="740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -623,7 +623,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="gdKYo6TlWgg4qejeybsB-19" value="框架透传TransInfo中以selector-meta-为前缀的KV转换为sourceService的MetaData" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="1420" y="1048" width="160" height="90" as="geometry" />
+          <mxGeometry x="1630" y="1120" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="gdKYo6TlWgg4qejeybsB-20" value="" style="curved=1;endArrow=classic;html=1;rounded=0;strokeWidth=1.5;fontSize=12;fontColor=#1A1A1A;dashed=1;fillColor=#e1d5e7;strokeColor=#9673a6;entryX=0.908;entryY=1.025;entryDx=0;entryDy=0;exitX=0.179;exitY=0.525;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="gdKYo6TlWgg4qejeybsB-16" target="oy9rxF2P4usleRckeEOI-8">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -638,11 +638,11 @@
         <mxCell id="gdKYo6TlWgg4qejeybsB-21" value="&lt;div style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;IP&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="1136" y="1008" width="40.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="gdKYo6TlWgg4qejeybsB-23" value="env=VAL" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="gdKYo6TlWgg4qejeybsB-23" value="env=&lt;br&gt;selector.Options.&lt;br&gt;SourceEnvName" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="1330" y="1008" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="gdKYo6TlWgg4qejeybsB-24" value="TransInfo&lt;br&gt;(特殊前缀)" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="1460" y="1008" width="70" height="40" as="geometry" />
+        <mxCell id="gdKYo6TlWgg4qejeybsB-24" value="msg.ServerMetaData()&lt;br&gt;(selector-meta-&lt;br&gt;前缀)" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="1008" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="gdKYo6TlWgg4qejeybsB-25" value="selector.Options.&lt;br&gt;SourceMetaData" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="1590" y="1008" width="100" height="40" as="geometry" />
@@ -661,7 +661,7 @@
         </mxCell>
         <mxCell id="gdKYo6TlWgg4qejeybsB-28" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=1.5;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1530" y="1029" as="sourcePoint" />
+            <mxPoint x="1550" y="1030" as="sourcePoint" />
             <mxPoint x="1590" y="1030" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -856,6 +856,47 @@
         </mxCell>
         <mxCell id="gdKYo6TlWgg4qejeybsB-87" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;strokeWidth=1.5;" vertex="1" parent="1">
           <mxGeometry x="1455" y="720" width="20" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="gdKYo6TlWgg4qejeybsB-88" value="req.TransInfo" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1530" y="1145" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gdKYo6TlWgg4qejeybsB-89" value="" style="curved=1;endArrow=none;html=1;rounded=0;strokeWidth=1.5;fontSize=12;fontColor=#1A1A1A;dashed=1;fillColor=#f8cecc;strokeColor=#b85450;exitX=0.179;exitY=0.525;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1" target="gdKYo6TlWgg4qejeybsB-88">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1509" y="1048" as="sourcePoint" />
+            <mxPoint x="1504" y="829" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1520" y="1080" />
+              <mxPoint x="1580" y="1100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gdKYo6TlWgg4qejeybsB-91" value="msg.EnvName" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1385" y="1166" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gdKYo6TlWgg4qejeybsB-92" value="" style="curved=1;endArrow=none;html=1;rounded=0;strokeWidth=1.5;fontSize=12;fontColor=#1A1A1A;dashed=1;fillColor=#f8cecc;strokeColor=#b85450;exitX=0.179;exitY=0.525;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=classic;startFill=1;endFill=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="gdKYo6TlWgg4qejeybsB-91">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1370" y="1050" as="sourcePoint" />
+            <mxPoint x="1438" y="1147" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1381" y="1082" />
+              <mxPoint x="1430" y="1100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gdKYo6TlWgg4qejeybsB-93" value="配置的EnvName" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="1259" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gdKYo6TlWgg4qejeybsB-94" value="" style="curved=1;endArrow=none;html=1;rounded=0;strokeWidth=1.5;fontSize=12;fontColor=#1A1A1A;dashed=1;fillColor=#f8cecc;strokeColor=#b85450;exitX=0.179;exitY=0.525;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=classic;startFill=1;endFill=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="gdKYo6TlWgg4qejeybsB-93">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1430" y="1206" as="sourcePoint" />
+            <mxPoint x="1490" y="1322" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1441" y="1238" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gdKYo6TlWgg4qejeybsB-95" value="区别" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1385" y="750" width="68" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
