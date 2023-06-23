@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-23T07:18:36.839Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="xtQfOhv_J8SDZQQdGa7o" version="21.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-23T07:22:16.229Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="rdFxyimL-gA6DaQUVhzN" version="21.4.0" type="github">
   <diagram name="第 1 页" id="jQH7tbNoPTEvgEEvp-iL">
     <mxGraphModel dx="1115" dy="740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -805,6 +805,24 @@
         </mxCell>
         <mxCell id="gdKYo6TlWgg4qejeybsB-73" value="&lt;div style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;新增规则&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="2173.5" y="1091.5" width="50" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="gdKYo6TlWgg4qejeybsB-74" value="" style="curved=1;endArrow=classic;html=1;rounded=0;strokeWidth=1.5;fontSize=12;fontColor=#1A1A1A;dashed=1;fillColor=#e1d5e7;strokeColor=#9673a6;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="gdKYo6TlWgg4qejeybsB-41" target="gdKYo6TlWgg4qejeybsB-52">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1789" y="1393" as="sourcePoint" />
+            <mxPoint x="1784" y="1174" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1960" y="1020" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gdKYo6TlWgg4qejeybsB-75" value="" style="curved=1;endArrow=classic;html=1;rounded=0;strokeWidth=1.5;fontSize=12;fontColor=#1A1A1A;dashed=1;fillColor=#e1d5e7;strokeColor=#9673a6;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="gdKYo6TlWgg4qejeybsB-52" target="gdKYo6TlWgg4qejeybsB-43">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1938" y="940" as="sourcePoint" />
+            <mxPoint x="2010" y="1073" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2110" y="1020" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
