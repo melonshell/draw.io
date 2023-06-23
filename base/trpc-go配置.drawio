@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-23T08:49:58.303Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="1m1SfOO5aX4TCmhTChAh" version="21.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-23T10:09:33.973Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="8KsfAnzTJZOSdtSyqdrS" version="21.4.0" type="github">
   <diagram name="第 1 页" id="jQH7tbNoPTEvgEEvp-iL">
     <mxGraphModel dx="1115" dy="740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -829,6 +829,33 @@
         </mxCell>
         <mxCell id="gdKYo6TlWgg4qejeybsB-80" value="trpc-go使用全链路透传的trpc-env默认支持多环境路由" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
           <mxGeometry x="1241" y="655" width="166" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="gdKYo6TlWgg4qejeybsB-81" value="WithServiceName" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="700" width="68" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gdKYo6TlWgg4qejeybsB-82" value="WithTarget" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="790" width="68" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gdKYo6TlWgg4qejeybsB-83" value="使用Target指定的Selector" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1610" y="790" width="68" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gdKYo6TlWgg4qejeybsB-84" value="使用默认的trpc-selector" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1606" y="700" width="68" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gdKYo6TlWgg4qejeybsB-85" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=1.5;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1548" y="719" as="sourcePoint" />
+            <mxPoint x="1610" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gdKYo6TlWgg4qejeybsB-86" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=1.5;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1548" y="810" as="sourcePoint" />
+            <mxPoint x="1610" y="811" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gdKYo6TlWgg4qejeybsB-87" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="1455" y="720" width="20" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
