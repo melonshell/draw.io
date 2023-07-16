@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-16T15:04:53.593Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="RFtHFen-Whf-P33u7P93" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-16T15:12:53.713Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="DpE4fHRu6xSxdIqQVdXA" version="21.6.2" type="github">
   <diagram name="第 1 页" id="jQH7tbNoPTEvgEEvp-iL">
     <mxGraphModel dx="2113" dy="720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1095,20 +1095,23 @@
         <mxCell id="LvwM35PkXQih2WpxM33S-10" value="&lt;div style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;开启全链路超时&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="958" y="1660" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="LvwM35PkXQih2WpxM33S-11" value="svc配置的timeout" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="1429" y="1570" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="LvwM35PkXQih2WpxM33S-12" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=1.5;fillColor=#e1d5e7;strokeColor=#9673a6;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1215" y="1659" as="sourcePoint" />
-            <mxPoint x="1295" y="1659.5" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="LvwM35PkXQih2WpxM33S-11" value="WithTimeout(ctx, clt配置的超时时间)" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="1590" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="LvwM35PkXQih2WpxM33S-13" value="&lt;div style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;rpc as client&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1200" y="1610" width="110" height="40" as="geometry" />
+          <mxGeometry x="1192" y="1660" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="LvwM35PkXQih2WpxM33S-14" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;strokeWidth=1.5;size=0.5;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="940" y="1620" width="20" height="100" as="geometry" />
+          <mxGeometry x="1265" y="1610" width="20" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="LvwM35PkXQih2WpxM33S-16" value="context.WithTimeout会取最小值" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="1359" y="1511" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LvwM35PkXQih2WpxM33S-17" value="msg.WithRequestTimeout(deadline.Sub(time.Now()))" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="1690" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LvwM35PkXQih2WpxM33S-18" value="带到下游" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="1720" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
