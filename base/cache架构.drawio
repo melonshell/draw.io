@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-22T16:16:28.356Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="-IbGcHO7axmaMVC9ZFrm" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-22T16:44:14.940Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="g-eAVzvyemXlxVlif4t7" version="21.6.5" type="github">
   <diagram name="第 1 页" id="tW7LIvCYIfbupHaoWykY">
     <mxGraphModel dx="1306" dy="740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -60,6 +60,75 @@
         </mxCell>
         <mxCell id="oaGKNERvn2uEoFcFvZA_-18" value="会控Redis集群组" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="370" y="200" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oaGKNERvn2uEoFcFvZA_-28" value="多网络协议支持" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="640" y="20" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oaGKNERvn2uEoFcFvZA_-29" value="TCP" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="780" y="20" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oaGKNERvn2uEoFcFvZA_-30" value="UDP" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="910" y="20" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oaGKNERvn2uEoFcFvZA_-31" value="多应用协议支持" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="640" y="90" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oaGKNERvn2uEoFcFvZA_-32" value="trpc" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="780" y="90" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oaGKNERvn2uEoFcFvZA_-33" value="http" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="910" y="90" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oaGKNERvn2uEoFcFvZA_-34" value="OIDB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="90" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oaGKNERvn2uEoFcFvZA_-36" value="批量接口用TCP，UDP包大小限制64K，SPP限制32K" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="1040" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oaGKNERvn2uEoFcFvZA_-37" value="由于trpc协议采用的PB3，故spp支持http和OIDB，对于批量接口，spp应调用http协议" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="52" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="oaGKNERvn2uEoFcFvZA_-38" value="多实例支持" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="640" y="170" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oaGKNERvn2uEoFcFvZA_-39" value="meetinginfo" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="780" y="170" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oaGKNERvn2uEoFcFvZA_-40" value="memberinfo" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="910" y="170" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oaGKNERvn2uEoFcFvZA_-41" value="memberlist" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="170" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oaGKNERvn2uEoFcFvZA_-42" value="其他" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="170" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oaGKNERvn2uEoFcFvZA_-43" value="多功能支持" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="640" y="248" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oaGKNERvn2uEoFcFvZA_-44" value="单命令" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="780" y="250" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oaGKNERvn2uEoFcFvZA_-45" value="原生批量命令" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="910" y="250" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oaGKNERvn2uEoFcFvZA_-46" value="pipeline批量命令" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="250" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oaGKNERvn2uEoFcFvZA_-47" value="读写分离" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="280" y="360" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oaGKNERvn2uEoFcFvZA_-48" value="路由" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="400" y="360" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oaGKNERvn2uEoFcFvZA_-49" value="水平扩展" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="295" y="395" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oaGKNERvn2uEoFcFvZA_-50" value="监控" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="530" y="360" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oaGKNERvn2uEoFcFvZA_-51" value="热key/大key跟踪" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="660" y="360" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
