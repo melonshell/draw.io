@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-22T17:02:37.690Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="IjtfR-Nb0siiyhvOcfWQ" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-22T17:07:15.975Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="lg-zIakd7MqxaedFgBy4" version="21.6.5" type="github">
   <diagram name="第 1 页" id="tW7LIvCYIfbupHaoWykY">
     <mxGraphModel dx="1306" dy="740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -189,6 +189,27 @@
         </mxCell>
         <mxCell id="oaGKNERvn2uEoFcFvZA_-71" value="多地多AZ部署" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="550" y="490" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oaGKNERvn2uEoFcFvZA_-72" value="通用接口" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="250" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oaGKNERvn2uEoFcFvZA_-73" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;strokeWidth=1.5;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1291" y="220" width="29" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="oaGKNERvn2uEoFcFvZA_-74" value="Do" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1304" y="204" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oaGKNERvn2uEoFcFvZA_-75" value="DoBatch" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1318" y="234" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oaGKNERvn2uEoFcFvZA_-76" value="DoW" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1308" y="270" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oaGKNERvn2uEoFcFvZA_-77" value="DoWBatch" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1323" y="313" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oaGKNERvn2uEoFcFvZA_-78" value="基于RESP协议，参数转化为string编码" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="1388" y="226" width="122" height="95" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
