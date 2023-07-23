@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-23T12:38:21.274Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="tJjDrMOGKc1TmayXIIDf" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-23T12:41:16.672Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="lZVjFT3xVW4zEE9q0t-s" version="21.6.5" type="github">
   <diagram name="第 1 页" id="tW7LIvCYIfbupHaoWykY">
     <mxGraphModel dx="1306" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1054,6 +1054,15 @@
             <mxPoint x="901" y="3352.5" as="sourcePoint" />
             <mxPoint x="1091" y="3353" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="oaGKNERvn2uEoFcFvZA_-348" value="如某个大会议ID的查询量为1w/QPS，代理100台机器，则每秒可命中（1w - 100）次" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="466.5" y="3215" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="oaGKNERvn2uEoFcFvZA_-349" value="适用于对变化不敏感的场景" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="460" y="3390" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="oaGKNERvn2uEoFcFvZA_-350" value="singleflight解决缓存穿透" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="930" y="3300" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
