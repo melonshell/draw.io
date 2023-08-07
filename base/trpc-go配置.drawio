@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-06T14:42:15.146Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="TJJ3qRoyjIcgZ6en4vyu" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-07T05:05:33.346Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="-4-5--7OQ9fTlb1Sk20k" version="21.6.6" type="github">
   <diagram name="第 1 页" id="jQH7tbNoPTEvgEEvp-iL">
     <mxGraphModel dx="2133" dy="730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1498,7 +1498,55 @@
           <mxGeometry x="310" y="2750" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="S5-xvh5UzjtsKJgK2uCY-11" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;strokeWidth=1.5;size=0.5;fillColor=#e1d5e7;strokeColor=#9673a6;rotation=-180;" vertex="1" parent="1">
-          <mxGeometry x="420" y="2685" width="20" height="90" as="geometry" />
+          <mxGeometry x="417" y="2685" width="20" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="S5-xvh5UzjtsKJgK2uCY-12" value="svc注册" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="448" y="2710" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="S5-xvh5UzjtsKJgK2uCY-13" value="handlers" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="610" y="2710" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="S5-xvh5UzjtsKJgK2uCY-14" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=1.5;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="553" y="2729.5" as="sourcePoint" />
+            <mxPoint x="593" y="2730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S5-xvh5UzjtsKJgK2uCY-15" value="&lt;b&gt;interface&lt;br&gt;&lt;/b&gt;KafkaConsumer" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="760" y="2560" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="S5-xvh5UzjtsKJgK2uCY-16" value="KafkaHandler" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="760" y="2645" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="S5-xvh5UzjtsKJgK2uCY-18" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;endWidth=12;endSize=4.67;fillColor=none;strokeColor=#9673a6;strokeWidth=1.5;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="804.5" y="2636" as="sourcePoint" />
+            <mxPoint x="804.5" y="2606" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S5-xvh5UzjtsKJgK2uCY-19" value="&lt;div style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;实现&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="807" y="2600" width="59" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="S5-xvh5UzjtsKJgK2uCY-20" value="method.Name" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="546" y="2820" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="S5-xvh5UzjtsKJgK2uCY-21" value="method.Func" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="662" y="2820" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="S5-xvh5UzjtsKJgK2uCY-22" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=1.5;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="2760" as="sourcePoint" />
+            <mxPoint x="610" y="2810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S5-xvh5UzjtsKJgK2uCY-23" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=1.5;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="2760" as="sourcePoint" />
+            <mxPoint x="700" y="2810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S5-xvh5UzjtsKJgK2uCY-25" value="&lt;div style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;构造map&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="630" y="2770" width="59" height="33" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
