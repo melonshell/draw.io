@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-08T01:15:23.710Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="hYylChlBPFHcwtIyH7Nn" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-08T03:54:41.207Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="PD5o2gIhEUWQ8f1UZ1ln" version="21.6.6" type="github">
   <diagram name="第 1 页" id="jQH7tbNoPTEvgEEvp-iL">
     <mxGraphModel dx="2133" dy="730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1687,23 +1687,23 @@
           <mxGeometry x="710" y="3010" width="125" height="33" as="geometry" />
         </mxCell>
         <mxCell id="S5-xvh5UzjtsKJgK2uCY-54" value="svc.New" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="-2.5" y="3070" width="90" height="40" as="geometry" />
+          <mxGeometry x="-2.5" y="3050" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="S5-xvh5UzjtsKJgK2uCY-55" value="设置transport.Handler为svc" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="-2.5" y="3180" width="90" height="40" as="geometry" />
+          <mxGeometry x="-2.5" y="3150" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="S5-xvh5UzjtsKJgK2uCY-57" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=1.5;fillColor=#e1d5e7;strokeColor=#9673a6;dashed=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="40" y="3130" as="sourcePoint" />
-            <mxPoint x="40" y="3170" as="targetPoint" />
+            <mxPoint x="40" y="3100" as="sourcePoint" />
+            <mxPoint x="40" y="3140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="S5-xvh5UzjtsKJgK2uCY-58" value="" style="curved=1;endArrow=none;html=1;rounded=0;strokeWidth=1.5;fontSize=12;fontColor=#1A1A1A;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;fillColor=#e1d5e7;strokeColor=#9673a6;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1" source="S5-xvh5UzjtsKJgK2uCY-33">
+        <mxCell id="S5-xvh5UzjtsKJgK2uCY-58" value="" style="curved=1;endArrow=none;html=1;rounded=0;strokeWidth=1.5;fontSize=12;fontColor=#1A1A1A;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;fillColor=#e1d5e7;strokeColor=#9673a6;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1" source="S5-xvh5UzjtsKJgK2uCY-33" target="S5-xvh5UzjtsKJgK2uCY-54">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-80" y="3170" as="sourcePoint" />
             <mxPoint x="-8" y="3090" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-40" y="3040" />
+              <mxPoint x="-50" y="3030" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1721,6 +1721,9 @@
         </mxCell>
         <mxCell id="S5-xvh5UzjtsKJgK2uCY-61" value="达到重试次数仍然失败，直接返回成功，标记消费进度" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
           <mxGeometry x="910" y="2996.5" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="S5-xvh5UzjtsKJgK2uCY-62" value="&lt;b&gt;Kafka逻辑流程&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=#e1d5e7;strokeColor=#9673a6;sketch=1;curveFitting=1;jiggle=2;shadow=1;glass=0;" vertex="1" parent="1">
+          <mxGeometry y="2500" width="130" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
