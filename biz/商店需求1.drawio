@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-23T08:11:10.116Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="WhfBC5Ji1feoiS49gzDO" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-23T09:28:01.767Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="M7HoEBqAyIwhcWp7A7T0" version="21.6.6" type="github">
   <diagram name="第 1 页" id="RN8D6trhCSr_xTsAeLv5">
-    <mxGraphModel dx="1372" dy="2227" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1525" dy="2227" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -42,8 +42,8 @@
         </mxCell>
         <mxCell id="tqhBYrK17Wl8zSmaN2CT-13" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;endWidth=10;endSize=6.33;fillColor=none;strokeColor=#9673a6;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="560" y="457" as="sourcePoint" />
-            <mxPoint x="560" y="497" as="targetPoint" />
+            <mxPoint x="569.5" y="450" as="sourcePoint" />
+            <mxPoint x="569.5" y="490" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="tqhBYrK17Wl8zSmaN2CT-14" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;fillColor=none;strokeColor=#9673a6;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
@@ -82,7 +82,7 @@
         <mxCell id="tqhBYrK17Wl8zSmaN2CT-23" value="取值" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;sketch=1;curveFitting=1;jiggle=2;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="460" y="457" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="tqhBYrK17Wl8zSmaN2CT-24" value="白名单系统" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;sketch=1;curveFitting=1;jiggle=2;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="tqhBYrK17Wl8zSmaN2CT-24" value="灰度白名单" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;sketch=1;curveFitting=1;jiggle=2;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="400" y="587" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tqhBYrK17Wl8zSmaN2CT-25" value="号码包" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;sketch=1;curveFitting=1;jiggle=2;strokeColor=#9673a6;" vertex="1" parent="1">
@@ -159,6 +159,9 @@
         </mxCell>
         <mxCell id="tqhBYrK17Wl8zSmaN2CT-53" value="折扣价" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;sketch=1;curveFitting=1;jiggle=2;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="720" y="175" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tqhBYrK17Wl8zSmaN2CT-54" value="不同分区的开售状态独立" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="390" y="190" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
