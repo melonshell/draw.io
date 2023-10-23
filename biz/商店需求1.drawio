@@ -1,9 +1,45 @@
-<mxfile host="app.diagrams.net" modified="2023-10-23T06:23:31.981Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="21.6.6" etag="pRusGYwxx8h7GWKM-hjt" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-23T06:30:05.302Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="eDC6R_Y5soMZGXAa2-WU" version="21.6.6" type="github">
   <diagram name="第 1 页" id="RN8D6trhCSr_xTsAeLv5">
-    <mxGraphModel>
+    <mxGraphModel dx="1297" dy="919" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="tqhBYrK17Wl8zSmaN2CT-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;sketch=1;curveFitting=1;jiggle=2;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="170" y="120" width="120" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="tqhBYrK17Wl8zSmaN2CT-1" value="开售状态获取" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;sketch=1;curveFitting=1;jiggle=2;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry y="40" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tqhBYrK17Wl8zSmaN2CT-2" value="终端" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;sketch=1;curveFitting=1;jiggle=2;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry y="140" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tqhBYrK17Wl8zSmaN2CT-3" value="首页" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;sketch=1;curveFitting=1;jiggle=2;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="190" y="150" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tqhBYrK17Wl8zSmaN2CT-4" value="开发者平台" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;sketch=1;curveFitting=1;jiggle=2;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="410" y="140" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tqhBYrK17Wl8zSmaN2CT-6" value="详情页" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;sketch=1;curveFitting=1;jiggle=2;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="190" y="210" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tqhBYrK17Wl8zSmaN2CT-7" value="商店" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;sketch=1;curveFitting=1;jiggle=2;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="170" y="120" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tqhBYrK17Wl8zSmaN2CT-8" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;fillColor=none;strokeColor=#9673a6;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="510" y="100" width="20" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="tqhBYrK17Wl8zSmaN2CT-9" value="商店页可见" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;sketch=1;curveFitting=1;jiggle=2;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="530" y="90" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tqhBYrK17Wl8zSmaN2CT-10" value="游戏可购买" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;sketch=1;curveFitting=1;jiggle=2;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="530" y="130" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tqhBYrK17Wl8zSmaN2CT-11" value="游戏可下载" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;sketch=1;curveFitting=1;jiggle=2;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="530" y="170" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tqhBYrK17Wl8zSmaN2CT-12" value="游戏可启动" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;sketch=1;curveFitting=1;jiggle=2;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="530" y="215" width="80" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
