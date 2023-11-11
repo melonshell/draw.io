@@ -1,26 +1,98 @@
-<mxfile host="app.diagrams.net" modified="2023-11-11T15:21:03.273Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="l1IzApnOb70hpdV9h7w9" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-11T16:52:19.336Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="k17I9pz1oFm13eu2wMl_" version="22.1.0" type="github">
   <diagram name="第 1 页" id="qTq3W1QGikNoTPRvvY38">
     <mxGraphModel dx="1118" dy="734" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="vhd5hmz_VU6lw37AL3oM-1" value="简单到复杂再到简单" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="660" y="40" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="vhd5hmz_VU6lw37AL3oM-2" value="多讨论" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="40" y="260" width="120" height="60" as="geometry" />
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9673a6;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="150" y="270" width="470" height="100" as="geometry" />
         </mxCell>
         <mxCell id="vhd5hmz_VU6lw37AL3oM-3" value="多阅读" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="40" y="390" width="120" height="60" as="geometry" />
+          <mxGeometry x="379" y="830" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vhd5hmz_VU6lw37AL3oM-4" value="换位思考" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="40" y="510" width="120" height="60" as="geometry" />
+          <mxGeometry x="39" y="830" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vhd5hmz_VU6lw37AL3oM-5" value="思考问题的方式" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="294" y="510" width="120" height="60" as="geometry" />
+          <mxGeometry x="209" y="830" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vhd5hmz_VU6lw37AL3oM-6" value="搞清楚问题" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="540" y="510" width="120" height="60" as="geometry" />
+          <mxGeometry x="549" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-7" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;做事的目的不仅是完成产品需求，更多的是提升自己，比如做一个小需求，你可以熟悉框架层面背后技术性的东西；负责一个系统则可以锻炼从方案设计到最终运营的综合素质。通过不断思考，沟通，尝试，总结和复盘，找出整个过程中的不足和改进方案，最终打磨形成一套高效的方法论。&lt;br&gt;&lt;br&gt;绘制架构图是每个工程师必须掌握的技能。俗话说一图胜千言，优秀的架构图应该是自解释的，读者很容易看懂，不需要额外的解释成本，架构图本身表达的内容简单明了。架构设计的过程其实是对系统的抽象过程，软件设计者也会对系统模块和功能有更深入的理解。如果架构图是简洁优雅的，那么最终做出的系统下限肯定不会太低。&lt;br&gt;&lt;br&gt;绘制架构图需要经过简单--复杂--简单的过程。&lt;br&gt;&lt;br&gt;1 简单&lt;br&gt;最开始接触一个项目大概率是对其业务逻辑不太了解的，此时可以根据需求将系统划分模块，明确各模块职责，以及模块间的关系，自上而下，分而治之。&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="750" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-8" value="多讨论" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="689" y="835" width="126" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-9" value="Part1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9673a6;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="190" y="290" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-10" value="Part2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9673a6;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="340" y="290" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-11" value="PartN" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9673a6;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="490" y="290" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-12" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;2 复杂&lt;br&gt;深入了解各模块内部的功能，模块内部又可以划分子模块，同一个模块的子模块间的关系，不同模块的子模块间的数据传递方式&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="39" y="400" width="741" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-14" value="Part1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9673a6;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="200" y="460" width="350" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-15" value="M1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9673a6;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="230" y="485" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-17" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9673a6;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="200" y="630" width="350" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-18" value="M2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9673a6;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="420" y="485" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=1.5;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1" source="vhd5hmz_VU6lw37AL3oM-15" target="vhd5hmz_VU6lw37AL3oM-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="500" as="sourcePoint" />
+            <mxPoint x="450" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-20" value="M3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9673a6;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="230" y="655" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=1.5;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="319.5" as="sourcePoint" />
+            <mxPoint x="340" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=1.5;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="319.5" as="sourcePoint" />
+            <mxPoint x="490" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-23" value="M5" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9673a6;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="420" y="655" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-24" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=1.5;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="530" as="sourcePoint" />
+            <mxPoint x="440" y="652" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-25" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=1.5;fillColor=#e1d5e7;strokeColor=#9673a6;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="vhd5hmz_VU6lw37AL3oM-23" target="vhd5hmz_VU6lw37AL3oM-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="538" as="sourcePoint" />
+            <mxPoint x="450" y="658" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-27" value="Part2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="340" y="620" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-28" value="M4" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9673a6;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="329" y="655" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-29" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;M2会从M1获取数据然后请求M5，M5返回数据到M2模块，M2是对外请求的模块，M5是对外提供接口的模块&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="43" y="720" width="741" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
