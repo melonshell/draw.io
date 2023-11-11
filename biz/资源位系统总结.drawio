@@ -1,232 +1,232 @@
-<mxfile host="app.diagrams.net" modified="2023-11-11T17:39:54.352Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="OXQB4zdtQEm9Jap9p-g0" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-11T17:41:22.355Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="7WTxZAvSd7Tr5qEeZNhD" version="22.1.0" type="github">
   <diagram name="第 1 页" id="qTq3W1QGikNoTPRvvY38">
     <mxGraphModel dx="1306" dy="740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="vhd5hmz_VU6lw37AL3oM-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9673a6;strokeWidth=1.5;" vertex="1" parent="1">
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9673a6;strokeWidth=1.5;" parent="1" vertex="1">
           <mxGeometry x="150" y="270" width="470" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="vhd5hmz_VU6lw37AL3oM-7" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;做事的目的不仅是完成产品需求，更多的是提升自己，比如做一个小需求，你可以熟悉框架层面背后技术性的东西；负责一个系统则可以锻炼从方案设计到最终运营的综合素质。通过不断思考，沟通，尝试，总结和复盘，找出整个过程中的不足和改进方案，最终打磨形成一套高效的方法论。&lt;br&gt;&lt;br&gt;绘制架构图是每个工程师必须掌握的技能。俗话说一图胜千言，优秀的架构图应该是自解释的，读者很容易看懂，不需要额外的解释成本，架构图本身表达的内容简单明了。架构设计的过程其实是对系统的抽象过程，软件设计者也会对系统模块和功能有更深入的理解。如果架构图是简洁优雅的，那么最终做出的系统下限肯定不会太低。&lt;br&gt;&lt;br&gt;绘制架构图需要经过简单--复杂--简单的过程。&lt;br&gt;&lt;br&gt;1 简单&lt;br&gt;最开始接触一个项目大概率是对其业务逻辑不太了解的，此时可以根据需求将系统划分模块，明确各模块职责，以及模块间的关系，自上而下，分而治之。&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;align=left;" vertex="1" parent="1">
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-7" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;做事的目的不仅是完成产品需求，更多的是提升自己，比如做一个小需求，你可以熟悉框架层面背后技术性的东西；负责一个系统则可以锻炼从方案设计到最终运营的综合素质。通过不断思考，沟通，尝试，总结和复盘，找出整个过程中的不足和改进方案，最终打磨形成一套高效的方法论。&lt;br&gt;&lt;br&gt;绘制架构图是每个工程师必须掌握的技能。俗话说一图胜千言，优秀的架构图应该是自解释的，读者很容易看懂，不需要额外的解释成本，架构图本身表达的内容简单明了。架构设计的过程其实是对系统的抽象过程，软件设计者也会对系统模块和功能有更深入的理解。如果架构图是简洁优雅的，那么最终做出的系统下限肯定不会太低。&lt;br&gt;&lt;br&gt;绘制架构图需要经过简单--复杂--简单的过程。&lt;br&gt;&lt;br&gt;1 简单&lt;br&gt;最开始接触一个项目大概率是对其业务逻辑不太了解的，此时可以根据需求将系统划分模块，明确各模块职责，以及模块间的关系，自上而下，分而治之。&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;align=left;" parent="1" vertex="1">
           <mxGeometry x="40" y="30" width="750" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="vhd5hmz_VU6lw37AL3oM-9" value="Part1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9673a6;strokeWidth=1.5;" vertex="1" parent="1">
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-9" value="Part1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9673a6;strokeWidth=1.5;" parent="1" vertex="1">
           <mxGeometry x="190" y="290" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vhd5hmz_VU6lw37AL3oM-10" value="Part2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9673a6;strokeWidth=1.5;" vertex="1" parent="1">
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-10" value="Part2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9673a6;strokeWidth=1.5;" parent="1" vertex="1">
           <mxGeometry x="340" y="290" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vhd5hmz_VU6lw37AL3oM-11" value="PartN" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9673a6;strokeWidth=1.5;" vertex="1" parent="1">
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-11" value="PartN" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9673a6;strokeWidth=1.5;" parent="1" vertex="1">
           <mxGeometry x="490" y="290" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vhd5hmz_VU6lw37AL3oM-12" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;2 复杂&lt;br&gt;深入了解各模块内部的功能，模块内部又可以划分子模块，同一个模块的子模块间的关系，不同模块的子模块间的数据传递方式，输入和输出，粒度需要细化到子模块。&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;align=left;" vertex="1" parent="1">
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-12" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;2 复杂&lt;br&gt;深入了解各模块内部的功能，模块内部又可以划分子模块，同一个模块的子模块间的关系，不同模块的子模块间的数据传递方式，输入和输出，粒度需要细化到子模块。&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;align=left;" parent="1" vertex="1">
           <mxGeometry x="39" y="400" width="741" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="vhd5hmz_VU6lw37AL3oM-14" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9673a6;strokeWidth=1.5;" vertex="1" parent="1">
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-14" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9673a6;strokeWidth=1.5;" parent="1" vertex="1">
           <mxGeometry x="43" y="470" width="407" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="vhd5hmz_VU6lw37AL3oM-15" value="M1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9673a6;strokeWidth=1.5;" vertex="1" parent="1">
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-15" value="M1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9673a6;strokeWidth=1.5;" parent="1" vertex="1">
           <mxGeometry x="73" y="495" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="vhd5hmz_VU6lw37AL3oM-17" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9673a6;strokeWidth=1.5;" vertex="1" parent="1">
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-17" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9673a6;strokeWidth=1.5;" parent="1" vertex="1">
           <mxGeometry x="43" y="640" width="407" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="vhd5hmz_VU6lw37AL3oM-18" value="M2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9673a6;strokeWidth=1.5;" vertex="1" parent="1">
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-18" value="M2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9673a6;strokeWidth=1.5;" parent="1" vertex="1">
           <mxGeometry x="272" y="495" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="vhd5hmz_VU6lw37AL3oM-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=1.5;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1" source="vhd5hmz_VU6lw37AL3oM-15" target="vhd5hmz_VU6lw37AL3oM-18">
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=1.5;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" source="vhd5hmz_VU6lw37AL3oM-15" target="vhd5hmz_VU6lw37AL3oM-18" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="243" y="510" as="sourcePoint" />
             <mxPoint x="293" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vhd5hmz_VU6lw37AL3oM-20" value="M3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9673a6;strokeWidth=1.5;" vertex="1" parent="1">
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-20" value="M3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9673a6;strokeWidth=1.5;" parent="1" vertex="1">
           <mxGeometry x="73" y="665" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="vhd5hmz_VU6lw37AL3oM-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=1.5;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1">
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=1.5;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="270" y="319.5" as="sourcePoint" />
             <mxPoint x="340" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vhd5hmz_VU6lw37AL3oM-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=1.5;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1">
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=1.5;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="420" y="319.5" as="sourcePoint" />
             <mxPoint x="490" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vhd5hmz_VU6lw37AL3oM-23" value="M5" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9673a6;strokeWidth=1.5;" vertex="1" parent="1">
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-23" value="M5" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9673a6;strokeWidth=1.5;" parent="1" vertex="1">
           <mxGeometry x="272" y="665" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="vhd5hmz_VU6lw37AL3oM-24" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=1.5;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1">
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-24" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=1.5;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="283" y="540" as="sourcePoint" />
             <mxPoint x="283" y="662" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vhd5hmz_VU6lw37AL3oM-25" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=1.5;fillColor=#e1d5e7;strokeColor=#9673a6;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="vhd5hmz_VU6lw37AL3oM-23" target="vhd5hmz_VU6lw37AL3oM-18">
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-25" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=1.5;fillColor=#e1d5e7;strokeColor=#9673a6;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="vhd5hmz_VU6lw37AL3oM-23" target="vhd5hmz_VU6lw37AL3oM-18" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="293" y="548" as="sourcePoint" />
             <mxPoint x="293" y="668" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vhd5hmz_VU6lw37AL3oM-27" value="Part2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;strokeWidth=1.5;" vertex="1" parent="1">
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-27" value="Part2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;strokeWidth=1.5;" parent="1" vertex="1">
           <mxGeometry x="183" y="630" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="vhd5hmz_VU6lw37AL3oM-28" value="M4" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9673a6;strokeWidth=1.5;" vertex="1" parent="1">
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-28" value="M4" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9673a6;strokeWidth=1.5;" parent="1" vertex="1">
           <mxGeometry x="172" y="665" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="vhd5hmz_VU6lw37AL3oM-29" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;M2会从M1获取数据然后请求M5，M5返回数据到M2模块，M2调用M0模块组装数据，完成。M2是对外请求的模块，M5是对外提供接口的模块。右图的问题在于M2发起的请求，M5却响应给了M0，给阅读者增加了解释成本。&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;align=left;" vertex="1" parent="1">
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-29" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;M2会从M1获取数据然后请求M5，M5返回数据到M2模块，M2调用M0模块组装数据，完成。M2是对外请求的模块，M5是对外提供接口的模块。右图的问题在于M2发起的请求，M5却响应给了M0，给阅读者增加了解释成本。&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;align=left;" parent="1" vertex="1">
           <mxGeometry x="43" y="730" width="787" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="vhd5hmz_VU6lw37AL3oM-30" value="Part1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;strokeWidth=1.5;" vertex="1" parent="1">
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-30" value="Part1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;strokeWidth=1.5;" parent="1" vertex="1">
           <mxGeometry x="183" y="460" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="vhd5hmz_VU6lw37AL3oM-33" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=1.5;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1" source="vhd5hmz_VU6lw37AL3oM-20" target="vhd5hmz_VU6lw37AL3oM-28">
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-33" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=1.5;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" source="vhd5hmz_VU6lw37AL3oM-20" target="vhd5hmz_VU6lw37AL3oM-28" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="153" y="525" as="sourcePoint" />
             <mxPoint x="273" y="525" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vhd5hmz_VU6lw37AL3oM-34" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=1.5;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1">
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-34" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=1.5;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="242" y="684.5" as="sourcePoint" />
             <mxPoint x="271" y="684.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vhd5hmz_VU6lw37AL3oM-50" value="M0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9673a6;strokeWidth=1.5;" vertex="1" parent="1">
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-50" value="M0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9673a6;strokeWidth=1.5;" parent="1" vertex="1">
           <mxGeometry x="370" y="495" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="vhd5hmz_VU6lw37AL3oM-51" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=1.5;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1">
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-51" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=1.5;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="340" y="514.5" as="sourcePoint" />
             <mxPoint x="370" y="515" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vhd5hmz_VU6lw37AL3oM-52" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9673a6;strokeWidth=1.5;" vertex="1" parent="1">
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-52" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9673a6;strokeWidth=1.5;" parent="1" vertex="1">
           <mxGeometry x="480" y="470" width="407" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="vhd5hmz_VU6lw37AL3oM-53" value="M1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9673a6;strokeWidth=1.5;" vertex="1" parent="1">
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-53" value="M1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9673a6;strokeWidth=1.5;" parent="1" vertex="1">
           <mxGeometry x="510" y="495" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="vhd5hmz_VU6lw37AL3oM-54" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9673a6;strokeWidth=1.5;" vertex="1" parent="1">
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-54" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9673a6;strokeWidth=1.5;" parent="1" vertex="1">
           <mxGeometry x="480" y="640" width="407" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="vhd5hmz_VU6lw37AL3oM-55" value="M2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9673a6;strokeWidth=1.5;" vertex="1" parent="1">
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-55" value="M2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9673a6;strokeWidth=1.5;" parent="1" vertex="1">
           <mxGeometry x="709" y="495" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="vhd5hmz_VU6lw37AL3oM-56" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=1.5;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1" source="vhd5hmz_VU6lw37AL3oM-53" target="vhd5hmz_VU6lw37AL3oM-55">
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-56" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=1.5;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" source="vhd5hmz_VU6lw37AL3oM-53" target="vhd5hmz_VU6lw37AL3oM-55" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="680" y="510" as="sourcePoint" />
             <mxPoint x="730" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vhd5hmz_VU6lw37AL3oM-57" value="M3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9673a6;strokeWidth=1.5;" vertex="1" parent="1">
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-57" value="M3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9673a6;strokeWidth=1.5;" parent="1" vertex="1">
           <mxGeometry x="510" y="665" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="vhd5hmz_VU6lw37AL3oM-58" value="M5" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9673a6;strokeWidth=1.5;" vertex="1" parent="1">
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-58" value="M5" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9673a6;strokeWidth=1.5;" parent="1" vertex="1">
           <mxGeometry x="709" y="665" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="vhd5hmz_VU6lw37AL3oM-59" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=1.5;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1">
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-59" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=1.5;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="720" y="540" as="sourcePoint" />
             <mxPoint x="720" y="662" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vhd5hmz_VU6lw37AL3oM-60" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=1.5;fillColor=#e1d5e7;strokeColor=#9673a6;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-60" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=1.5;fillColor=#e1d5e7;strokeColor=#9673a6;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="842" y="640" as="sourcePoint" />
             <mxPoint x="841.5" y="535" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vhd5hmz_VU6lw37AL3oM-61" value="Part2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;strokeWidth=1.5;" vertex="1" parent="1">
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-61" value="Part2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;strokeWidth=1.5;" parent="1" vertex="1">
           <mxGeometry x="620" y="630" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="vhd5hmz_VU6lw37AL3oM-62" value="M4" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9673a6;strokeWidth=1.5;" vertex="1" parent="1">
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-62" value="M4" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9673a6;strokeWidth=1.5;" parent="1" vertex="1">
           <mxGeometry x="609" y="665" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="vhd5hmz_VU6lw37AL3oM-63" value="Part1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;strokeWidth=1.5;" vertex="1" parent="1">
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-63" value="Part1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;strokeWidth=1.5;" parent="1" vertex="1">
           <mxGeometry x="620" y="460" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="vhd5hmz_VU6lw37AL3oM-64" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=1.5;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1" source="vhd5hmz_VU6lw37AL3oM-57" target="vhd5hmz_VU6lw37AL3oM-62">
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-64" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=1.5;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" source="vhd5hmz_VU6lw37AL3oM-57" target="vhd5hmz_VU6lw37AL3oM-62" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="590" y="525" as="sourcePoint" />
             <mxPoint x="710" y="525" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vhd5hmz_VU6lw37AL3oM-65" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=1.5;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1">
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-65" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=1.5;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="679" y="684.5" as="sourcePoint" />
             <mxPoint x="708" y="684.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vhd5hmz_VU6lw37AL3oM-66" value="M0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9673a6;strokeWidth=1.5;" vertex="1" parent="1">
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-66" value="M0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9673a6;strokeWidth=1.5;" parent="1" vertex="1">
           <mxGeometry x="807" y="495" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="vhd5hmz_VU6lw37AL3oM-67" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=1.5;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1">
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-67" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=1.5;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="777" y="514.5" as="sourcePoint" />
             <mxPoint x="807" y="515" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vhd5hmz_VU6lw37AL3oM-68" value="&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 24px;&quot;&gt;X&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;strokeWidth=1.5;" vertex="1" parent="1">
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-68" value="&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 24px;&quot;&gt;X&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;strokeWidth=1.5;" parent="1" vertex="1">
           <mxGeometry x="800" y="580" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="vhd5hmz_VU6lw37AL3oM-70" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;3 简单&lt;br&gt;到这里设计者对系统有了更深入的认识。经过第二步骤的复杂过程，架构图中会有很多子模块，以及模块间的箭头流向以及类似XXX的参数描述，模块太多关系太复杂对读者来说并不友好，会增加读者的理解成本且可能陷入细节。此时需要自下而上归纳，整理抽象，屏蔽细节。&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;align=left;" vertex="1" parent="1">
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-70" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;3 简单&lt;br&gt;到这里设计者对系统有了更深入的认识。经过第二步骤的复杂过程，架构图中会有很多子模块，以及模块间的箭头流向以及类似XXX的参数描述，模块太多关系太复杂对读者来说并不友好，会增加读者的理解成本且可能陷入细节。此时需要自下而上归纳，整理抽象，屏蔽细节。&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;align=left;" parent="1" vertex="1">
           <mxGeometry x="44.5" y="790" width="785.5" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="vhd5hmz_VU6lw37AL3oM-71" value="XXX" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;strokeWidth=1.5;" vertex="1" parent="1">
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-71" value="XXX" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;strokeWidth=1.5;" parent="1" vertex="1">
           <mxGeometry x="172" y="510" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="vhd5hmz_VU6lw37AL3oM-72" value="YYY" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;strokeWidth=1.5;" vertex="1" parent="1">
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-72" value="YYY" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;strokeWidth=1.5;" parent="1" vertex="1">
           <mxGeometry x="230" y="570" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="vhd5hmz_VU6lw37AL3oM-73" value="YYY" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;strokeWidth=1.5;" vertex="1" parent="1">
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-73" value="YYY" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;strokeWidth=1.5;" parent="1" vertex="1">
           <mxGeometry x="309" y="570" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="vhd5hmz_VU6lw37AL3oM-75" value="Part1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9673a6;strokeWidth=1.5;" vertex="1" parent="1">
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-75" value="Part1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9673a6;strokeWidth=1.5;" parent="1" vertex="1">
           <mxGeometry x="163" y="880" width="407" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="vhd5hmz_VU6lw37AL3oM-77" value="Part2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9673a6;strokeWidth=1.5;" vertex="1" parent="1">
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-77" value="Part2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9673a6;strokeWidth=1.5;" parent="1" vertex="1">
           <mxGeometry x="163" y="1050" width="407" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="vhd5hmz_VU6lw37AL3oM-82" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=1.5;fillColor=#e1d5e7;strokeColor=#9673a6;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1">
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-82" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=1.5;fillColor=#e1d5e7;strokeColor=#9673a6;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="303" y="970" as="sourcePoint" />
             <mxPoint x="303" y="1050" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vhd5hmz_VU6lw37AL3oM-83" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=1.5;fillColor=#e1d5e7;strokeColor=#9673a6;entryX=0.69;entryY=0.978;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="vhd5hmz_VU6lw37AL3oM-75">
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-83" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=1.5;fillColor=#e1d5e7;strokeColor=#9673a6;entryX=0.69;entryY=0.978;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="vhd5hmz_VU6lw37AL3oM-75" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="445" y="1050" as="sourcePoint" />
             <mxPoint x="444.5" y="945" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vhd5hmz_VU6lw37AL3oM-91" value="YYY" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;strokeWidth=1.5;" vertex="1" parent="1">
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-91" value="YYY" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;strokeWidth=1.5;" parent="1" vertex="1">
           <mxGeometry x="250" y="980" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="vhd5hmz_VU6lw37AL3oM-92" value="YYY" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;strokeWidth=1.5;" vertex="1" parent="1">
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-92" value="YYY" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;strokeWidth=1.5;" parent="1" vertex="1">
           <mxGeometry x="429" y="980" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="vhd5hmz_VU6lw37AL3oM-93" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;模块间的关系&lt;br&gt;&lt;/span&gt;xxxxxx&lt;br&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;PPT逻辑关系表达：https://zhuanlan.zhihu.com/p/31100417&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;align=left;" vertex="1" parent="1">
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-93" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;模块间的关系&lt;br&gt;&lt;/span&gt;xxxxxx&lt;br&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;PPT逻辑关系表达：https://zhuanlan.zhihu.com/p/31100417&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;align=left;" parent="1" vertex="1">
           <mxGeometry x="43" y="1169" width="773.75" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vhd5hmz_VU6lw37AL3oM-95" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;换位思考&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;系统各模块的使用者是谁？如果是产品同学，你就需要屏蔽开发细节，使系统更易用&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;align=left;" vertex="1" parent="1">
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-95" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;换位思考&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;系统各模块的使用者是谁？如果是产品同学，你就需要屏蔽开发细节，使系统更易用&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;align=left;" parent="1" vertex="1">
           <mxGeometry x="40" y="1250" width="773.75" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vhd5hmz_VU6lw37AL3oM-96" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;多讨论&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;俗话说隔行如隔山，多找有经验的同学讨论方案，经验是各种踩坑总结出来的&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;align=left;" vertex="1" parent="1">
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-96" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;多讨论&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;俗话说隔行如隔山，多找有经验的同学讨论方案，经验是各种踩坑总结出来的&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;align=left;" parent="1" vertex="1">
           <mxGeometry x="42.25" y="1320" width="773.75" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vhd5hmz_VU6lw37AL3oM-97" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;持续学习&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;新的业务必须多阅读相关文章才会对该领域有更深刻的认识，初期可以先了解大概架构，不必深入细节&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;align=left;" vertex="1" parent="1">
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-97" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;持续学习&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;新的业务必须多阅读相关文章才会对该领域有更深刻的认识，初期可以先了解大概架构，不必深入细节&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;align=left;" parent="1" vertex="1">
           <mxGeometry x="42.25" y="1390" width="773.75" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vhd5hmz_VU6lw37AL3oM-98" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;搞清楚问题&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;在讨论问题时，需要理解对方要表达的问题是什么？每个人都有不同的理解，搞清楚问题是关键&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;align=left;" vertex="1" parent="1">
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-98" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;搞清楚问题&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;在讨论问题时，需要理解对方要表达的问题是什么？每个人都有不同的理解，搞清楚问题是关键&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;align=left;" parent="1" vertex="1">
           <mxGeometry x="42.25" y="1450" width="773.75" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vhd5hmz_VU6lw37AL3oM-99" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;思考问题的方式&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;首先需要找到方案的问题，然后才能给出解决方案。&lt;br&gt;可以想象自己作为开发者，从终端请求开始，经过每一个模块，每个模块需要如何处理请求？梳理清楚每个步骤才会找到问题所在&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;align=left;" vertex="1" parent="1">
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-99" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;思考问题的方式&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;可以想象自己作为开发者，从终端请求开始，经过每一个模块，每个模块需要如何处理请求？梳理清楚每个步骤才会找到问题所在&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;align=left;" parent="1" vertex="1">
           <mxGeometry x="40" y="1520" width="780" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="vhd5hmz_VU6lw37AL3oM-100" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;选型&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;一般业界都有比较成熟的方案，多咨询成熟业务，多查阅资料，切忌闭门造车&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;align=left;" vertex="1" parent="1">
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-100" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;选型&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;一般业界都有比较成熟的方案，多咨询成熟业务，多查阅资料，切忌闭门造车&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;align=left;" parent="1" vertex="1">
           <mxGeometry x="40" y="1610" width="773.75" height="60" as="geometry" />
         </mxCell>
       </root>
