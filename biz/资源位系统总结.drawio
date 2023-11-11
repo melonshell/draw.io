@@ -1,9 +1,27 @@
-<mxfile host="app.diagrams.net" modified="2023-11-11T14:55:21.479Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" version="22.1.0" etag="pxI9TjL6iY1YAzNaJ9G7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-11T15:21:03.273Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="l1IzApnOb70hpdV9h7w9" version="22.1.0" type="github">
   <diagram name="第 1 页" id="qTq3W1QGikNoTPRvvY38">
-    <mxGraphModel>
+    <mxGraphModel dx="1118" dy="734" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-1" value="简单到复杂再到简单" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="660" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-2" value="多讨论" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-3" value="多阅读" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-4" value="换位思考" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-5" value="思考问题的方式" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="294" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vhd5hmz_VU6lw37AL3oM-6" value="搞清楚问题" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="540" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
