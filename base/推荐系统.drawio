@@ -1,9 +1,39 @@
-<mxfile host="app.diagrams.net" modified="2024-05-09T07:28:31.443Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="24.3.1" etag="YKKJDXPBtvU_71H96dKX" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-09T07:39:10.361Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="UZovLt8mFD-ixNEjx_V3" version="24.3.1" type="github">
   <diagram name="第 1 页" id="WWHIsIJMiqKI1Dyoz8xa">
-    <mxGraphModel>
+    <mxGraphModel dx="1181" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="HdUwjw4lz0XR8KJPb_fj-1" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="70" y="30" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="HdUwjw4lz0XR8KJPb_fj-3" value="推荐系统：不需要用户提供明确的需求，而是通过分析用户的历史行为给用户的兴趣建模&lt;div&gt;解决长尾信息获取的问题&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="20" width="498" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HdUwjw4lz0XR8KJPb_fj-4" value="搜索系统：用户主动提供关键词来寻找信息" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="90" y="132" width="248" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HdUwjw4lz0XR8KJPb_fj-5" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="70" y="210" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="HdUwjw4lz0XR8KJPb_fj-6" value="区别" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="75" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HdUwjw4lz0XR8KJPb_fj-7" value="工作原理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="20" y="255" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HdUwjw4lz0XR8KJPb_fj-8" value="社会化推荐：让好友推荐" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="196" width="185" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HdUwjw4lz0XR8KJPb_fj-9" value="基于内容推荐" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="235" width="185" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HdUwjw4lz0XR8KJPb_fj-10" value="基于流行度推荐：排行榜" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="270" width="185" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HdUwjw4lz0XR8KJPb_fj-11" value="基于协同过滤推荐：相似用户感兴趣的内容" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="75.5" y="314" width="269" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
