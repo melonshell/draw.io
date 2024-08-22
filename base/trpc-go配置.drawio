@@ -1938,7 +1938,7 @@
         <mxCell id="bgjnoDnyKE9L8CeK0930-18" value="&lt;font face=&quot;Lucida Console&quot;&gt;需要手动设置SerializationType&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="636" y="3960" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="bgjnoDnyKE9L8CeK0930-19" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Lucida Console&amp;quot;;&quot;&gt;CurrentSerializationType&lt;/span&gt;默认配置为-1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+        <mxCell id="bgjnoDnyKE9L8CeK0930-19" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Lucida Console&amp;quot;;&quot;&gt;CurrentSerializationType和serializationType均在NewOptions&lt;/span&gt;默认配置为-1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="740" y="3940" width="193" height="80" as="geometry" />
         </mxCell>
       </root>
