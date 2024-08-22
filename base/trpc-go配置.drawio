@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-26T05:29:19.129Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="4YscaEBdd6VuRgoLn1T1" version="23.0.2" type="github">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7">
   <diagram name="第 1 页" id="jQH7tbNoPTEvgEEvp-iL">
-    <mxGraphModel dx="1914" dy="707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2133" dy="730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1869,76 +1869,76 @@
             <mxPoint x="600" y="3688" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bgjnoDnyKE9L8CeK0930-1" value="&lt;b&gt;SerializationType逻辑&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=#e1d5e7;strokeColor=#9673a6;sketch=1;curveFitting=1;jiggle=2;shadow=1;glass=0;" vertex="1" parent="1">
+        <mxCell id="bgjnoDnyKE9L8CeK0930-1" value="&lt;b&gt;SerializationType逻辑&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=#e1d5e7;strokeColor=#9673a6;sketch=1;curveFitting=1;jiggle=2;shadow=1;glass=0;" parent="1" vertex="1">
           <mxGeometry x="3" y="3760" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="bgjnoDnyKE9L8CeK0930-2" value="客户端" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="bgjnoDnyKE9L8CeK0930-2" value="客户端" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="-5" y="3890" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="bgjnoDnyKE9L8CeK0930-3" value="ServerCodec.&lt;br&gt;Decode" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="bgjnoDnyKE9L8CeK0930-3" value="ServerCodec.&lt;br&gt;Decode" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="170" y="3890" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="bgjnoDnyKE9L8CeK0930-4" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=1.5;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1">
+        <mxCell id="bgjnoDnyKE9L8CeK0930-4" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=1.5;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="107.5" y="3909.5" as="sourcePoint" />
             <mxPoint x="147.5" y="3910" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bgjnoDnyKE9L8CeK0930-5" value="设置msg&lt;br&gt;SerializationType" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="bgjnoDnyKE9L8CeK0930-5" value="设置msg&lt;br&gt;SerializationType" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="320" y="3890" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="bgjnoDnyKE9L8CeK0930-6" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=1.5;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1">
+        <mxCell id="bgjnoDnyKE9L8CeK0930-6" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=1.5;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="270" y="3910" as="sourcePoint" />
             <mxPoint x="310" y="3910.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bgjnoDnyKE9L8CeK0930-7" value="msg.WithSerializationType(&lt;br&gt;int(req.GetContentType()))" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+        <mxCell id="bgjnoDnyKE9L8CeK0930-7" value="msg.WithSerializationType(&lt;br&gt;int(req.GetContentType()))" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="255" y="3930" width="193" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="bgjnoDnyKE9L8CeK0930-8" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;strokeWidth=1.5;size=0.5;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="bgjnoDnyKE9L8CeK0930-8" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;strokeWidth=1.5;size=0.5;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="435" y="3830" width="20" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="bgjnoDnyKE9L8CeK0930-9" value="&lt;font face=&quot;Lucida Console&quot;&gt;网关透传&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="bgjnoDnyKE9L8CeK0930-9" value="&lt;font face=&quot;Lucida Console&quot;&gt;网关透传&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="467" y="3810" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="bgjnoDnyKE9L8CeK0930-10" value="&lt;font face=&quot;Lucida Console&quot;&gt;RPC桩代码&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="bgjnoDnyKE9L8CeK0930-10" value="&lt;font face=&quot;Lucida Console&quot;&gt;RPC桩代码&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="467" y="3880" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="bgjnoDnyKE9L8CeK0930-11" value="&lt;font face=&quot;Lucida Console&quot;&gt;invoke&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="bgjnoDnyKE9L8CeK0930-11" value="&lt;font face=&quot;Lucida Console&quot;&gt;invoke&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="466" y="3960" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="bgjnoDnyKE9L8CeK0930-12" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=1.5;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1">
+        <mxCell id="bgjnoDnyKE9L8CeK0930-12" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=1.5;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="581" y="3829" as="sourcePoint" />
             <mxPoint x="621" y="3829.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bgjnoDnyKE9L8CeK0930-13" value="&lt;font face=&quot;Lucida Console&quot;&gt;设置CurrentSerializationType为noop&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="bgjnoDnyKE9L8CeK0930-13" value="&lt;font face=&quot;Lucida Console&quot;&gt;设置CurrentSerializationType为noop&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="636" y="3810" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="bgjnoDnyKE9L8CeK0930-14" value="否则在Encode时会再次序列化" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+        <mxCell id="bgjnoDnyKE9L8CeK0930-14" value="否则在Encode时会再次序列化" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="747" y="3790" width="193" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="bgjnoDnyKE9L8CeK0930-15" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=1.5;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1">
+        <mxCell id="bgjnoDnyKE9L8CeK0930-15" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=1.5;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="580" y="3899.5" as="sourcePoint" />
             <mxPoint x="620" y="3900" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bgjnoDnyKE9L8CeK0930-16" value="&lt;font face=&quot;Lucida Console&quot;&gt;桩代码设置SerializationType为PB&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="bgjnoDnyKE9L8CeK0930-16" value="&lt;font face=&quot;Lucida Console&quot;&gt;桩代码设置SerializationType为PB&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="636" y="3880" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="bgjnoDnyKE9L8CeK0930-17" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=1.5;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1">
+        <mxCell id="bgjnoDnyKE9L8CeK0930-17" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=1.5;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="575" y="3979.5" as="sourcePoint" />
             <mxPoint x="615" y="3980" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bgjnoDnyKE9L8CeK0930-18" value="&lt;font face=&quot;Lucida Console&quot;&gt;需要手动设置SerializationType&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="bgjnoDnyKE9L8CeK0930-18" value="&lt;font face=&quot;Lucida Console&quot;&gt;需要手动设置SerializationType&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=none;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="636" y="3960" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="bgjnoDnyKE9L8CeK0930-19" value="默认配置为-1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+        <mxCell id="bgjnoDnyKE9L8CeK0930-19" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Lucida Console&amp;quot;;&quot;&gt;CurrentSerializationType&lt;/span&gt;默认配置为-1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="740" y="3940" width="193" height="80" as="geometry" />
         </mxCell>
       </root>
